@@ -1,0 +1,2353 @@
+/*=====Hotels styling=====================*/
+/*---------The deltin Main page---------------------*/
+.wrapper{position:relative;}
+
+.pos-relative{position:relative; padding-bottom:0px;}
+.mob-banner-h{display:none !important;}
+.m-banner{display:none !important;}
+.deals-link-bx{display:none;}
+
+.booking-block .hotel-logo{width:21%; float:left; border:0px solid red; padding: 14.5px 0 0.5px 25px;}
+.booking-block .hotel-date-selector{width:52%; float:left; border:0px solid red; padding-right:12px;}
+.booking-block .hotel-date-selector .hotel-check-in{width:calc(50% - 9px); float:left;}
+.booking-block .hotel-date-selector .casino-check-in{width:100%;}
+.booking-block .hotel-date-selector .hotel-check-out{width:calc(50% - 9px); float:right;}
+.booking-block .hotel-date-selector .datepicker-box { background: url(../assets/icons-sprites.png); text-transform: uppercase; background-size: 170px; background-repeat: no-repeat; background-position: right -8.2em top -1167.5px, 0 0; border: 1px solid #af892a; font: normal 15px/20px 'IBM Plex Sans', sans-serif; color: #242424; letter-spacing: 0.3px; padding: 14.5px 15px; float: left; margin-right: 10px; width: 100%;
+}
+.hotels-booking .booking-btn{width:27% !important;}
+/*----------*/
+.casino-booking{width:85%; margin:0 auto;}
+.booking-block .casino-logo{width:21%; float:left; border:0px solid red; padding: 14.5px 0 0.5px 25px;}
+.booking-block .casino-date-selector{width:52%; float:left; border:0px solid red; padding-right:12px;}
+.booking-block .casino-date-selector .casino-check-in{width:100%;}
+.booking-block .casino-date-selector .datepicker-box { background: url(../assets/icons-sprites.png); text-transform: uppercase; background-size: 170px; background-repeat: no-repeat; background-position: right -8.2em top -1167.5px, 0 0; border: 1px solid #af892a; font:400 15px/20px 'IBM Plex Sans', sans-serif; color: #242424; letter-spacing: 0.3px; padding: 14.5px 15px; float: right; margin-right: 0px;  width: 95%;}
+.casino-booking .booking-btn{width:27% !important;}
+
+#overview{padding:90px 0 40px 0;}
+#overview .min-menu{margin:0; padding:0;}
+#overview .min-menu li{list-style:none; display:inline-block; font:normal 15px/22px 'Oswald', sans-serif; margin-right:32px; padding:0 2px 5px 3px; border-bottom:0px solid #be952e;}
+#overview .min-menu li a{font: normal 15px/22px 'Oswald', sans-serif; color:#867b64; text-transform:uppercase; font-stretch: normal; font-style: normal; letter-spacing: 1px;  color: #a89a7d;  opacity: 0.8; }
+/*#overview .min-menu li.active{border-bottom:1.5px solid #be952e; opacity:1;}
+#overview .min-menu li.active a{opacity:1; color:#be952e;} 
+
+#overview .min-menu li:hover a{opacity:1; color:#be952e;}*/
+#overview .min-menu li.active a{opacity:1; color:#be952e;} 
+/*#overview .min-menu li.active{border-bottom:1.5px solid #be952e; opacity:1;}
+*/
+
+#overview .min-menu li:hover a{opacity:1; color:#be952e;}
+
+#overview .min-menu li:after {
+	position: relative;
+    top: 5.1px;
+  display:block;
+  content: '';
+  border-bottom: solid 1.5px #be952e;  
+  transform: scaleX(0);  
+  transition: transform 0.3s ease-in-out;
+  transform-origin: 100% 50%;
+}
+#overview .min-menu li:hover:after{ transform: scaleX(1); transform-origin:   0% 50%; }
+#overview .min-menu li.active:after {
+  display:block;
+  content: '';
+  border-bottom: solid 1.5px #be952e;  
+  transform: scaleX(1);  
+  transition: transform 0.3s ease-in-out;
+  transform-origin: 100% 50%;
+}
+
+#overview .nav-line{width:100%; height:3px; border-top:1px solid #1f1c14;}
+
+#description-block{padding: 0 0 80px 0; position:relative;}
+.side-pattern::after {
+    content: '';
+    position: absolute;
+    top: -14%;
+    right: 0;
+    bottom: 0;
+    width: 183px;
+    height: 569px;
+    background: url(../assets/patterns/diamond.png) no-repeat;
+    background-size: cover;
+    background-position: 10px top;
+    z-index: 99;
+}
+#description-block .left-description{float:left; width:55%;}
+#description-block.side-pattern .left-description{float:left; width:50%;}
+.left-description .pic-bx{width:100%;}
+.left-description .pic-bx img{width:100%;}
+.hotel-description-bx .right-description{width: 40%; float: right; padding-right: 60px;}
+#description-block.side-pattern .hotel-description-bx .right-description{width: 45%; float: right; padding-top: 40px; padding-right: 140px;}
+.hotel-description-bx .right-description h2{color: #eadab0; font: 200 30px/42px 'Oswald', sans-serif; letter-spacing: 1.64px;
+ text-transform: uppercase; padding:8px 0 10px 0;}
+ .hotel-description-bx .right-description p{color: #eadab0; letter-spacing: 0.3px; font: 400 14px/20px 'IBM Plex Sans', sans-serif; padding-bottom:35px; margin:0;}
+ 
+.hotel-description-bx .certified-bx{width:100%; position:relative; }
+.hotel-description-bx .certified-bx img{height:108px;}
+.hotel-description-bx .certified-bx	.view-link{position: absolute; top: 30%; left: 50%;}
+.sub-pages .about-hotels, .sub-pages .about-casinos{padding-top:150px !important;}
+.about-hotels .tab-menu-box .nav-tabs li{width:16%;}
+.about-casinos .tab-menu-box .nav-tabs li {
+    width: 22%;
+}
+.about-hotels.about-casinos::before {
+    content: '';
+    position: absolute;
+    top: 70px;
+    width: 230px;
+    height: 380px;
+    background: url(../assets/patterns/diamond-big.png) no-repeat;
+    background-size: cover;
+    background-position: -140px top;
+	opacity:0.7;
+}
+.explore-btn{width: 64%; padding:10px 0; background: transparent; border: 1px solid #be952e; color: #be952e; text-transform: uppercase;  font: 400 18px/24px 'Oswald', sans-serif; letter-spacing: 1px;  margin-top:45px;}
+.explore-btn:hover{background:#be952e; color:#fff;}
+.explore-btn-o{width: 64%; padding:10px 0;background:#be952e; color:#fff; border: 1px solid #be952e;text-transform: uppercase;  font: 400 18px/24px 'Oswald', sans-serif; letter-spacing: 1px;  margin-top:5px;}
+.explore-btn-o:hover{background:#af892a; color:#fff;}
+
+.mob-pic-bx{display:none;}
+
+.venu-info-bx{border:0px solid red; width:90%; float:right; padding:35px 0 0 0;}
+.venu-info-bx .venu-content-bx{float:left; border:0px solid blue; position:relative; height: 150px;}
+.venu-info-bx .venu-content-bx:nth-child(3n+1){width:28.5%; }
+.venu-info-bx .venu-content-bx:nth-child(3n+2){width:39%; }
+.venu-info-bx .venu-content-bx:nth-child(3n+3){width:27%; }
+
+.venu-info-bx.blockof-4 .venu-content-bx:nth-child(4n+1){width:25%; }
+.venu-info-bx.blockof-4 .venu-content-bx:nth-child(4n+2){width:25%; }
+.venu-info-bx.blockof-4 .venu-content-bx:nth-child(4n+3){width:25%; }
+.venu-info-bx.blockof-4 .venu-content-bx:nth-child(4n+4){width:25%; }
+
+.venu-content-bx .v-icon{}
+.venu-content-bx .v-icon img {height:58px;}
+.venu-content-bx h4{letter-spacing: 0.5px; color: #be952e; font: 600 28px/44px 'Oswald', sans-serif; text-transform: uppercase; position: absolute; top: 31px; left: 27px}
+.venu-content-bx p{letter-spacing: 0.3px; margin:0; font: 400 13px/18px 'IBM Plex Sans', sans-serif; color: #f2f2f2; padding: 11px 0 0 27px; text-transform: uppercase;}
+ 
+.hotels-deals .offer-block .offer-content .content-inner-box .offer-info {height: 190px !important;}
+.hotels-deals .link-box{position:absolute; top:-18px; right:0;}
+
+#about-casion-tabs::after{display:none;}
+.about-hotels .tab-pane{position:relative;}
+
+.learn-box{position:relative;}
+/*#dining, #facilities, #wedding, #meetings{height:550px; position:relative;}
+#dining .owl-stage-outer, #facilities .owl-stage-outer, #wedding .owl-stage-outer, #meetings .owl-stage-outer{position:absolute;}
+#dining .owl-stage, #facilities .owl-stage, #wedding .owl-stage, #meetings .owl-stage{padding-left:0 !important;}
+#dining .owl-nav, #facilities .owl-nav, #wedding .owl-nav, #meetings .owl-nav{position: absolute; bottom: 0; right: 0;}*/
+
+#about-casion-tabs .owl-carousel{height:480px; position:relative;}
+#about-casion-tabs .owl-carousel .owl-stage-outer, #about-casion-tabs .owl-carousel .owl-stage-outer, #about-casion-tabs .owl-carousel .owl-stage-outer, .about-casion-block .owl-carousel .owl-stage-outer{
+    position:absolute; margin-top:-30px;}
+#about-casion-tabs .owl-carousel .owl-stage, #about-casion-tabs .owl-carousel .owl-stage, #about-casion-tabs .owl-carousel .owl-stage, #about-casion-tabs .owl-carousel .owl-stage{padding-left:0 !important;}
+#about-casion-tabs .owl-carousel .owl-nav, #about-casion-tabs .owl-carousel .owl-nav, #about-casion-tabs .owl-carousel .owl-nav, #about-casion-tabs .owl-carousel .owl-nav{position: absolute; bottom: 0; right: 0;}
+
+
+.sub-pages #weddings{height:550px; position:relative;}
+.sub-pages #weddings .owl-stage-outer{position:absolute;}
+.sub-pages #weddings .owl-stage{padding-left:0 !important;}
+.sub-pages #weddings .owl-nav{position: absolute; bottom: 0; right: 0;}
+
+.sub-pages .about-casion-t  .owl-carousel{height: 630px; position: relative;}
+.sub-pages .about-casion-t  .owl-carousel .owl-stage-outer{position:absolute;}
+.sub-pages .about-casion-t  .owl-carousel .owl-stage{padding-left:0 !important;}
+.sub-pages .about-casion-t  .owl-carousel .owl-nav{position: absolute; bottom: 0; right: 0;}
+
+.content-overlay{position:absolute; left:0; bottom:0; background: url(../assets/header-bck.png); padding:15px 35px; text-align:left; width: 100%;}
+.content-overlay h4{color: #eadab0; font: 200 24px/32px 'Oswald', sans-serif; letter-spacing: 1.64px; text-transform: uppercase; 
+padding:5px 0 5px 0;}
+.content-overlay p{color: #eadab0; letter-spacing: 0.3px; font: 400 14px/20px 'IBM Plex Sans', sans-serif; padding-bottom: 10px; margin: 0;}
+
+.hotels-rooms .offers-slider-outer {
+    position: relative;
+    height: 480px;
+}
+.hotels-rooms .owl-carousel{height:100%;}
+.hotels-rooms .owl-carousel .owl-stage{padding-left:0 !important;}
+
+.slider-count{ position: absolute; right: 150px; bottom: 26px; z-index: 9; font: 400 18px/20px 'Oswald', sans-serif; letter-spacing: 2px; color: #eadab0;}
+/*.slider-counter-f { position: absolute; right: 150px; bottom: 26px; z-index: 9; font: 400 18px/20px 'Oswald', sans-serif; letter-spacing: 2px; color: #eadab0;}
+.slider-counter-w{ position: absolute; right: 150px; bottom: 26px; z-index: 9; font: 400 18px/20px 'Oswald', sans-serif; letter-spacing: 2px; color: #eadab0;}
+.slider-counter-m{ position: absolute; right: 150px; bottom: 26px; z-index: 9; font: 400 18px/20px 'Oswald', sans-serif; letter-spacing: 2px; color: #eadab0;}*/
+
+.gallery-btn{width: 25%; padding:8.5px 0; background: transparent; border: 0.5px solid #be952e; color: #be952e; text-transform: uppercase;  font: 400 18px/24px 'Oswald', sans-serif; letter-spacing: 1px;  margin-top:0px; position: absolute; bottom: 14px; z-index:9;}
+.gallery-btn:hover{background:#be952e; color:#fff;}
+
+.gaming-btn{width: 25%; padding:8.5px 0; background:#be952e; color:#fff; border: 0.5px solid #be952e; text-transform: uppercase;  font: 400 18px/24px 'Oswald', sans-serif; letter-spacing: 1px;  margin-top:0px; position: absolute; bottom: 12px; z-index:9;}
+.gaming-btn:hover{background:#af892a; color:#fff;}
+
+#offers {
+    padding: 0 0 90px 0 !important;
+    overflow-x: hidden;
+}
+#rooms {
+    position: relative;
+    height: 490px;
+}
+#rooms .owl-stage{padding-left:0 !important;}
+.hotels-rooms .item{position:relative;}
+.hotels-rooms .rooms-bx{width:100%; height: 160px; position:relative; bottom: 0; background: url(../assets/header-bck.png); text-align:center;}
+.hotels-rooms  .link-box{position:absolute; top:-18px; right:0;}
+
+.hotels-rooms .rooms-bx h4{letter-spacing: 0px; color: #eadab0; padding-bottom: 20px; font: 500 22px/24px 'Oswald', sans-serif; text-transform: uppercase; padding:30px 0 10px 0; margin:0;}
+.hotels-rooms .rooms-bx h6{
+  font-family: SourceSansPro;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #a89a7d;}
+  
+.hotels-rooms .rooms-bx h6 span{font: 600 16px/20px 'Oswald', sans-serif; color: #eadab0;}
+.play-games{margin-top:20px !important;}
+
+.hotels-rooms .book-room-btn {text-align: center; margin: 0 10px; border-bottom: 1px solid transparent;  position: absolute; bottom: 0; left: 0; right: 0;}
+.hotels-rooms .book-room-btn .rbook-btn{width: 240px;
+    margin: 0 auto;
+    height: 50px;
+    background-color: #be952e;
+    color: #fff;
+    border: 0;
+    font: 400 18px/20px 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: -1px;}
+
+.hotels-rooms .offer-block:hover .rooms-bx{background:#fffee2;}
+.hotels-rooms .offer-block:hover .rooms-bx h4{color: #000000;}
+.hotels-rooms .offer-block:hover .rooms-bx h6{color:#33332d;}
+.hotels-rooms .offer-block:hover .rooms-bx h6 span{color:#33332d;}
+.hotels-rooms .offer-block:hover .book-room-btn{bottom:10px; border-bottom: 1px solid #be952e;}
+
+#contact-us {margin:0 0 80px 0; overflow: hidden;}
+#contact-us .contact-block{overflow: hidden;}
+#contact-us .contact-box{width:42%; float: left; position: relative; padding-top:0px;}
+#contact-us .address-box{background:#212121; padding:30px 40px;}
+#contact-us .address-box h5{text-transform: uppercase;
+    font: 400 20px/24px 'Oswald', sans-serif;
+    letter-spacing: 0.2px;
+    color: #eadab0;
+    padding-bottom: 8px;}
+#contact-us .address-box p{color: #eadab0; letter-spacing: 0.3px; font: 400 14px/20px 'IBM Plex Sans', sans-serif; padding-left: 20px;}
+#contact-us .address-box a{font: 400 15px/21px 'IBM Plex Sans', sans-serif; letter-spacing: 0.32px; color: #eadab0;width:50%; float:left;}
+  
+#contact-us .contact-form-bx{padding: 30px 40px 40px 40px; background:#0b0b0b; /*background: url(../assets/gb.png);*/}
+#contact-us .contact-form-bx form{padding-top:10px;}
+#contact-us .contact-form-bx h3{letter-spacing: 0px;
+    color:#9d8e67;
+    padding-bottom: 20px;
+    font: 500 22px/24px 'Oswald', sans-serif;
+    text-transform: uppercase;}
+  
+#contact-us .input-box{width:100%; background:transparent; border:0; border-bottom:1px solid #5f4a17; color:#f2f2f2; padding:9px 0px; margin-top:0px; font: normal 15px/20px 'IBM Plex Sans', sans-serif;}
+.in-bx{position:relative;}
+#contact-us .map-bx{width:100%; float:left; /*z-index:-1;overflow: initial !important;*/   position:absolute;
+  z-index: -1;
+  left: 300px;}
+  
+#contact-us .map-mob-bx{width:100%; float:none; width: calc(100% - 30px);
+    margin: 0 auto;
+    float: none;
+    height: 200px;
+    margin-bottom: 5px; /*z-index:-1;overflow: initial !important;*/   }
+  
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 0px;
+  top: 30px;
+  transition: 0.2s ease all;
+  color:#808080;
+  letter-spacing: 0.3px;
+  color:#808080;
+  font: normal 15px/20px 'IBM Plex Sans', sans-serif;
+ 
+}
+
+.hotel-dining .float-label {
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.hotel-dining .floating-label { top: 23px; font: normal 14px/20px 'IBM Plex Sans', sans-serif}
+.hotel-dining .prop-select-bx {
+    width: 100% !important;
+    position: relative;
+    padding-bottom: 0px; padding: 10px 0 0 0;
+}
+.hotel-dining .date-box {
+    width: 100%;
+    float: none;
+}
+
+.hotel-dining .date-box label {
+    letter-spacing: 0.48px;
+    color: #9d8e67; padding:14px 0 0 0; display:block;
+    font: normal 12px/16px 'IBM Plex Sans', sans-serif;
+}
+.hotel-dining .datepicker-box {
+    border: 0;
+    border-bottom: 1px solid #5f4a17;
+    font: normal 13px/19px 'IBM Plex Sans', sans-serif;
+    color: #f2f2f2;
+    letter-spacing: 0.3px;
+    padding:8px 0px 10px 0;
+    float: right;
+    margin-right: 0;
+    width: 100%;
+}
+.hotel-dining .date-box .datepicker-box {
+    background: url(../assets/icons-sprites.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: right -9.16em top -1033.5px, 0 0;
+}
+.hotel-dining .form-bxs{ float:left;}
+.hotel-dining .form-bxs:nth-child(3n+1){width:40%; padding:0 10px 0 0;}
+.hotel-dining .form-bxs:nth-child(3n+2){width:35%; padding:0 5px 0 5px;}
+.hotel-dining .form-bxs:nth-child(3n+3){width:25%; padding:0 0px 0 10px;}
+.box-row{margin:-8px 0 0 0;}
+
+.hotel-dining .event-booking .selected { font: normal 13px/20px 'IBM Plex Sans', sans-serif;}
+
+#contact-us .contact-form-bx .send-btn{
+	width: 65%;
+    padding: 10px 0;
+    background: transparent;
+    border: 0.5px solid #be952e;
+    color: #be952e;
+    text-transform: uppercase;
+    font: 400 18px/24px 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 20px;}
+#contact-us .contact-form-bx .send-btn:hover{background:#be952e; color:#f2f2f2;}
+#contact-us .map-bx {height:741px;}
+#contact-us .addr-icon{height:20px;position: relative; right: 6px; top: 4px;}
+#contact-us h5 .addr-icon{top:1px;}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label{
+	top: 3px;
+	bottom:0px;
+	left: 0px;
+	letter-spacing: 0.48px;
+	color: #9d8e67;
+	font: 400 12px/20px 'IBM Plex Sans', sans-serif;
+}
+
+.float-label{padding-top:20px; margin-top:0px; margin-bottom:15px;}
+
+
+#other-hotels{padding:70px 0 100px 0;}
+#other-hotels .hotel-list-bx{width:100%;}
+#other-hotels .hotel-list-bx .hotel-info{width:33.33%; float:left; border: solid 1px #756d58; background-color: #0e0e0e; padding:0px 0px 50px 0px;}
+#other-hotels .hotel-list-bx .hotel-info.slider-w{width:100%;}
+#other-hotels .hotel-list-bx .hotel-info img{width:100%;}
+#other-hotels .hotel-detail{margin-top:20px; padding:0 0 10px 20px;  position:relative;}
+
+#other-hotels .hotel-detail	.plc-name{color: #eadab0; text-transform: uppercase; font: 400 14px/20px 'IBM Plex Sans', sans-serif;  border: solid 1px #554e3a; position: absolute;  top: 2px; right: 20px; padding: 1px 16px;}
+#other-hotels .know-more{text-transform:capitalize; color:#be952e;font: 400 16px/21px 'IBM Plex Sans', sans-serif; letter-spacing: 0.6px; border-bottom:1.1px solid #be952e; padding:15px 0 3px 0px; margin-left:20px;}
+#other-hotels .know-more:hover{color:#fff; border-bottom:1.1px solid #fff; }
+
+#deltin-casinos{position:relative; height:380px;}
+#deltin-casinos  .owl-stage-outer{position:absolute;}
+#deltin-casinos .owl-stage{padding-left:0 !important;}
+#deltin-casinos .owl-nav{position: absolute;  bottom: 0; text-align: right;  width: 100%;}
+
+/*---------- Wedding page-------------*/
+#events-slider-bx{margin-bottom:110px;}
+#form-block{  width:100%;  border:0px solid blue;}
+
+.event-booking-block{position:absolute;background: #0e0e0e; padding: 25px 35px 35px 35px; border: solid 1px #756d58; width: 35%;right:30px; z-index: 100;top:120px;}
+.event-booking h3{color: #eadab0; font: 200 23px/36px 'Oswald', sans-serif; letter-spacing: 1.64px; text-transform: uppercase;}
+.event-booking p{color: #eadab0; letter-spacing: 0.3px; font: 300 13px/20px 'IBM Plex Sans', sans-serif; margin-bottom: 5px}
+.hotel-dining .event-booking p {
+    color: #eadab0;
+    letter-spacing: 0.3px;
+    font: 300 13px/20px 'IBM Plex Sans', sans-serif;
+    margin-bottom: 0px;
+}
+
+.form-bx{position: relative; width:100%;}
+.form-bx .input-box {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #5f4a17;
+    color: #f2f2f2;
+    padding: 9px 0px;
+    margin-top: 0px;
+    font: normal 15px/20px 'IBM Plex Sans', sans-serif;
+}
+.hotel-dining .form-bx .input-box { padding: 5px 0px;}
+.form-bx .input-box:after{
+	width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #5f4a17;
+    color: #f2f2f2;
+    padding: 9px 0px;
+    margin-top: 0px;
+    font: normal 15px/20px 'IBM Plex Sans', sans-serif;
+}
+
+.event-booking-block .form-btn{background: #be952e; text-transform: uppercase; border: 1px solid #be952e; color: #fff; font: 400 15px/20px 'Oswald', sans-serif; letter-spacing: 1px; padding: 15px 0; width: 100%; margin: 25px 0 25px 0; opacity:0.5;}
+.event-booking-block .hotel-dining .form-btn {
+    background: #be952e;
+    text-transform: uppercase;
+    border: 1px solid #be952e;
+    color: #fff;
+    font: 400 15px/20px 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    padding: 15px 0;
+    width: 100%;
+    margin: 25px 0 0px 0;
+    opacity: 0.5;
+}
+.event-booking-block .form-btn:hover{opacity:1;}
+
+.event-booking-block .hotel-dining .form-btn:hover{opacity:1;}
+
+.contact-links{width:1.hotel-dining00%; padding-left:5px; padding-top: 20px;}
+.contact-links a{font: 400 15px/21px 'IBM Plex Sans', sans-serif; letter-spacing: 0.32px; color: #eadab0; width: 50%; float: left;}
+.contact-links a .addr-icon {
+    height: 20px;
+    position: relative;
+    right: 6px;
+    top: 4px;
+}
+
+.about-event-bx .nav-tabs{width:80% !important;}
+.about-event-bx .tab-pane {position: relative;}
+.about-event-bx .content-overlay h4{padding:10px 0 5px 0;}
+
+.sub-pages #sub-header {
+    position: fixed;
+    z-index: 9999;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+	background:#212121;
+}
+
+.sub-pages .is-hidden#sub-header {
+    top: 50px;
+}
+
+#sub-header .logo-select-box{float: left; width:auto; position: relative;}
+#sub-header h5.logo-list{text-transform: uppercase;
+    letter-spacing: 1px;
+    font: 600 20px/20px 'Oswald', sans-serif;
+    padding:13.5px 0 13px 6px;background:#212121;
+    color: #f2f2f2;}
+#sub-header h5.logo-list:hover{cursor:pointer;}
+#sub-header h5.logo-list span{color:#ba2025;}
+
+/*#sub-header h5.current-page.arrow-up:after {
+	
+	 content: '';
+	 box-sizing: content-box;
+	 display: inline-block;
+	 float: none;
+	 width: 20px;
+	 height: 20px;
+	 background: url(../assets/icons-sprites.png) -5px -1.5px;
+	 background-size: 170px; background-repeat: no-repeat;
+	 margin: 0px 0 0 6px;
+}
+#sub-header h5.current-page.arrow-down:after {
+	
+	 content: '';
+	 box-sizing: content-box;
+	 display: inline-block;
+	  float: none;
+	 width: 20px;
+	 height: 20px;
+	margin: 0px 0 0 6px;
+	 background: url(../assets/icons-sprites.png) -5px -1.5px;
+	 background-size: 170px; background-repeat: no-repeat;
+	 -webkit-transform: rotate(180deg);  
+    -moz-transform: rotate(180deg);  
+    -ms-transform: rotate(180deg);  
+    -o-transform: rotate(180deg);  
+    transform: rotate(180deg);  
+}*/
+
+#sub-header h5.current-page.arrow-up:after {
+	/* The "dropdown" arrow */
+	 content: '';
+	 box-sizing: content-box;
+	 display: inline-block;
+	 float: none;
+	 width: 15px;
+	 height: 15px;
+	 background: url(../assets/dropdown-arrow.png);
+	 background-size:contain; 
+	 background-repeat: no-repeat;
+	 margin: 0px 0 0 6px;
+	 position: relative;
+     top: 2.5px;
+}
+#sub-header h5.current-page.arrow-down:after {
+	/* The "dropdown" arrow */
+	 content: '';
+	 box-sizing: content-box;
+	 display: inline-block;
+	  float: none;
+	 width: 15px;
+	 height: 15px;
+	margin: 0px 0 0 6px;
+	 background: url(../assets/dropdown-arrow.png);
+	 background-size:contain; 
+	 background-repeat: no-repeat;
+	 -webkit-transform: rotate(180deg);  /* Chrome, Safari 3.1+ */
+    -moz-transform: rotate(180deg);  /* Firefox 3.5-15 */
+    -ms-transform: rotate(180deg);  /* IE 9 */
+    -o-transform: rotate(180deg);  /* Opera 10.50-12.00 */
+    transform: rotate(180deg);  /* Firefox 16+, IE 10+, Opera 12.10+ */
+	 position: relative;
+     top:-4px;
+}
+
+#sub-header .selcet-logo{margin: 0; display:none;
+    padding: 0px 10px 0px 4px;
+    width: 100%;
+    background-color: #212121;
+    background-clip: padding-box;
+    border: 0.5px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    border-top: 1px solid #585244; margin-top: 0px;}
+
+
+#sub-header .sub-nav-list ul{}
+#sub-header .sub-nav-list ul li{list-style: none; display: inline-block; position: relative;} 
+#sub-header .sub-nav-list ul li a{padding:13.5px 11px 13px 11px; text-transform: uppercase; letter-spacing: 1px; font: 400 15px/20px 'Oswald', sans-serif; color: #be952e;  position: relative;}
+#sub-header .sub-nav-list ul li.active a{border-bottom:2px solid #eadab0; color:#eadab0;}
+
+#events-slideshow{height:640px; overflow:hidden;}
+#events-slideshow .owl-dots{position: absolute; top: 40%; z-index: 9999; right: 10px;}
+#events-slideshow .owl-dots .owl-dot{background:url("../assets/dots.png"); width: 10px;  height: 10px; border-radius:50%; display: block; margin: 5px;}
+#events-slideshow .owl-dots .owl-dot.active{background:url("../assets/dots-solid.png") !important;}
+
+.sub-pages .hotel-description-bx .right-description{ padding-top:50px; padding-right: 80px;}
+.sub-pages .hotel-description-bx .right-description p{padding:5px 0 0 0;}
+.sub-pages .link-box{padding: 25px 0 20px 0;}
+.sub-pages a.view-link {
+    font: 400 16px/26px 'Oswald', sans-serif;
+    letter-spacing: 1.44px;
+    color: #be952e;
+    border-bottom: 1px solid #be952e;
+    text-transform: uppercase;
+    padding-bottom: 1px;
+}
+.sub-pages #description-block{position:relative;}
+.sub-pages #description-block::after {
+    content: '';
+    position: absolute;
+    top: 5%;
+    right: -70px;
+    bottom: 0;
+    width: 183px;
+    height: 320px;
+    background: url(../assets/patterns/diamond-big.png) no-repeat;
+    background-size: cover;
+    background-position: 10px top;
+    z-index: -1;
+	opacity:0.6;
+}
+
+.sub-pages #description-block::before {
+    content: '';
+    position: absolute;
+    bottom: 40px;
+    width: 183px;
+    height: 320px;
+    background: url(../assets/patterns/diamond-big.png) no-repeat;
+    background-size: cover;
+    background-position: -120px top;
+    z-index: -1;
+	opacity:0.8;
+}
+
+.venu-content-bx .v-icon.car img{height: 70px; position: relative;  top: -10px; left:2px;}
+.venu-content-bx p.car-txt{position:relative; top:-10px;}
+/*.hotel-venus-info .venu-info-bx .venu-content-bx:nth-child(1){width:30.5%;}
+.hotel-venus-info .venu-info-bx .venu-content-bx:nth-child(2){width:32%;}
+.hotel-venus-info .venu-info-bx .venu-content-bx:nth-child(3){width:31%;}
+.hotel-venus-info .venu-info-bx:nth-child(1){padding: 80px 0 40px 0;}
+.hotel-venus-info .venu-info-bx:nth-child(2){padding: 40px 0 60px 0;}*/
+
+.venu-facilities{width:100%; border:0px solid red; padding-bottom:45px;}
+.venu-facilities .single-facility{width:20%; float:left; border:0px solid blue; padding:15px 0;}
+.venu-facilities .single-facility:nth-child(1){width:16.5%;}
+
+.venu-facilities .single-facility .facility-content{padding-left: 35px; position:relative;}
+.venu-facilities .single-facility:nth-child(1) .facility-content{padding-left: 0px;}
+.venu-facilities .single-facility .facility-content img{width: 65px; position:relative; top:2px;}
+.venu-facilities .single-facility .facility-content p{font: 300 15px/21px 'IBM Plex Sans', sans-serif; color: #f2f2f2; letter-spacing: 0.3px; margin: 0; padding-top:1px;}
+.venu-facilities .single-facility .facility-content hr{text-align: center;border:0; border-bottom:1px solid  #4e4733;  color: #4e4733; width: 65px; margin: 0;  position: absolute; bottom: 32px; left: unset; right: -30px; transform: rotate(90deg);}
+
+
+#event-testimonal-bx{padding:0 0 80px 0;}
+.counter-bx{position:relative; height: 350px;}
+#event-testimonal{position:relative; height: 350px;}
+#event-testimonal .owl-stage-outer{position: absolute !important;}
+#event-testimonal-bx .owl-stage{padding-left:0 !important;}
+#event-testimonal .owl-nav{position: absolute; right: 0;  bottom: 0;}
+#event-testimonal-bx .testimonal-bx{background:#0e0e0e; border:1px solid #756d58; padding:35px 100px; text-align:center; height: 260px; overflow: hidden;}
+#event-testimonal .testimonal-bx img{width:48px; margin:20px auto 25px auto;}
+#event-testimonal .testimonal-bx h4{color: #eadab0; padding-bottom: 5px; font: 500 22px/24px 'Oswald', sans-serif; text-transform: uppercase; }
+#event-testimonal .testimonal-bx h6{font: 300 15px/21px 'IBM Plex Sans', sans-serif; color: #9e9477; letter-spacing: 0.3px;}
+#event-testimonal-bx .testimonal-bx p{font-family: 'IBM Plex Sans', sans-serif;  font-size: 22px; font-weight:300;  font-style: italic; line-height: 1.5; letter-spacing: 0.44px; color: #ffffff;}
+.slider-counter-test{position: absolute; right: 150px; bottom: 13px; z-index: 9; font: 400 18px/20px 'Oswald', sans-serif; color: #eadab0;}
+
+
+#brochures-bx{padding:0 0 100px 0;}
+#brochures-bx .brochures-list .brochures-block{width:30%; float:left;}
+#brochures-bx .brochures-list .brochures-block h4{padding:0 0 5px 0px; font: 500 20px/21px 'Oswald', sans-serif; text-transform: uppercase; color: #f2f2f2; letter-spacing: 0.9px;}
+#brochures-bx .brochures-list .brochures-block a{font: 400 15px/22px 'IBM Plex Sans', sans-serif; color: #f2f2f2; letter-spacing: 0.6px; color: #be952e; border-bottom: 1.5px solid #be952e; padding-bottom:4px; margin-left:27px;}
+#brochures-bx .brochures-list .brochures-block a:hover{color: #f2f2f2; border-bottom: 1.5px solid #f2f2f2;}
+#brochures-bx .pdf-icon{height:25px; position: relative; top: 3px; margin-right:6px;}
+#brochures-bx .download-icon{width: 18px; position: relative; top: 4px;}
+
+
+
+#special-events::before{display:none;}
+
+/*------------------------------------*/
+
+
+/*------ Hotels Offer page-------*/
+#offers-block{padding:160px 0 80px 0;}
+#offers-block .offer-block{width:calc(33.33% - 16px); float:left; border: solid 1px #756d58; background-color: #0e0e0e; position: relative; z-index: 1; margin-bottom:25px;}
+#offers-block .offer-block:nth-child(3n+1){margin-right:12px; clear: left;}
+#offers-block .offer-block:nth-child(3n+2){margin:0 12px;}
+#offers-block .offer-block:nth-child(3n+3){margin-left:12px;}
+#offers-block .offer-block .offer-img{width:100%;  margin:0; padding:0;}
+#offers-block .offer-block .offer-img img{width:100%; margin:0; padding:0;}
+#offers-block .offer-block .offer-content{padding:20px 30px;}
+#offers-block .offer-block .offer-content .content-inner-box{position: relative;}
+#offers-block .offer-block .offer-content .content-inner-box .logo-img{width:auto;}
+#offers-block .offer-block .offer-content .content-inner-box .label{text-transform:uppercase; color: #eadab0; font:400 14px/20px 'IBM Plex Sans', sans-serif;
+border: solid 1px #554e3a; position:absolute; top: 2px; right: 0; padding:0px 11px;}
+#offers-block .offer-block .offer-content .content-inner-box .label2{text-transform:uppercase; color: #eadab0; font:400 14px/20px 'IBM Plex Sans', sans-serif;
+border: solid 1px #554e3a; position:absolute; top: 2px; right: 58px; padding:0px 11px;}
+#offers-block .offer-block .offer-content .content-inner-box .offer-info{height: 170px; overflow: hidden; padding-top:15px;
+ margin-bottom: 15px;}
+#offers-block .offer-block .offer-content .content-inner-box .offer-info h3{letter-spacing: 0px; color: #eadab0; padding-bottom:20px;
+font:300 22px/24px 'Oswald', sans-serif; text-transform: uppercase; }
+#offers-block .offer-block .offer-content .content-inner-box .offer-info p{color: #eadab0; letter-spacing: 0.3px;
+font: 400 14px/20px 'IBM Plex Sans', sans-serif;}
+#offers-block .offer-block .offer-content .content-inner-box .offer-info p span{color: #eadab0; letter-spacing: 0.3px;
+font: 600 14px/20px 'IBM Plex Sans', sans-serif;}
+#offers-block .p-btn-box{text-align:center; margin: 0 10px; border-bottom:1px solid transparent; top:1px;}
+#offers-block .p-btn-box .offer-btn{width:240px; margin:0 auto; height: 50px; background-color: #be952e; letter-spacing: 1px;
+color:#fff; border:0; font:400 18px/20px 'Oswald', sans-serif; text-transform:uppercase; margin-bottom: -1px;}
+#offers-block .offer-block .offer-content .content-inner-box .offer-info ul li{color: #eadab0; letter-spacing: 0.3px;
+font: 400 14px/18px 'IBM Plex Sans', sans-serif; padding-bottom:3px;}
+
+.pos-rel{position: relative;}
+.pos-rel .slider-counter-m{bottom: 11px;}
+
+/* offers block hover effects*/
+#offers-block .hover-block:hover .p-btn-box{margin: 0 10px 0px 10px; position: relative; top: -10px; 
+border-bottom:1px solid #be952e;}
+#offers-block .offer-block:after {content: ""; position: absolute; bottom: 0; left: 0; right:0; width: 100%; height: 100%; border: solid 1px #756d58; 
+transform: scaleY(0); transform-origin: bottom center; background:#fffee2; z-index: -1; transition: transform 0.5s;}
+#offers-block .offer-block:hover::after { transform: scaleY(1);}
+#offers-block .hover-block:hover .content-inner-box .offer-info h3{color:#242424;}
+#offers-block .hover-block:hover .content-inner-box .offer-info p{color:#242424;}
+#offers-block .hover-block:hover .content-inner-box .offer-info ul li{color:#242424;}
+#offers-block .hover-block:hover .content-inner-box .label{border:1px solid #cec6a5; color:#242424;}
+#offers-block .hover-block:hover .content-inner-box .label2{border:1px solid #cec6a5; color:#242424;}
+#offers-block .hover-block:hover .content-inner-box .offer-info p span{color:#242424;}
+#offers-block .hover-block:hover .p-btn-box .offer-btn{background:#af892a;}
+/*-------------------------------------------*/
+
+/*-------- gallery page------------*/
+.gallery-block{padding:160px 0 80px 0 !important;}
+.tab-menu-box-gallery {width: 100%; margin: 0px; overflow: auto;}
+.tab-menu-box-gallery-4{width: 100%; margin: 0px; overflow: auto;}
+.tab-menu-box-gallery .nav-tabs{width:100%;}
+.tab-menu-box-gallery-4 .nav-tabs{width: 90%;}
+.tab-menu-box-gallery .nav-tabs li{width:15%;}
+.tab-menu-box-gallery-4 .nav-tabs li { width:18%;}
+.gallery-block .tab-pane{position:relative;}
+.gallery-sliders .owl-carousel{height:550px; position:relative;}
+.gallery-sliders .owl-carousel .owl-stage-outer{position:absolute;}
+.gallery-sliders .owl-carousel .owl-stage{padding-left:0 !important;}
+.gallery-sliders .owl-carousel .owl-nav{position: absolute; bottom: 0; right: 0;}
+.slider-counter-pro{position: absolute; right: 150px; bottom: 26px; z-index: 9; font: 400 18px/20px 'Oswald', sans-serif; letter-spacing: 2px; color: #eadab0;}
+
+/*#tab-room-slider{height:550px; position:relative;}
+#tab-room-slider .owl-stage-outer{position:absolute;}
+#tab-room-slider .owl-stage{padding-left:0 !important;}
+#tab-room-slider .owl-nav{position: absolute; bottom: 0; right: 0;}
+.slider-counter-roo{ position: absolute; right: 150px; bottom: 26px; z-index: 9; font: 400 18px/20px 'Oswald', sans-serif; letter-spacing: 2px; color: #eadab0;}
+
+#tab-dining-slider{height:550px; position:relative;}
+#tab-dining-slider .owl-stage-outer{position:absolute;}
+#tab-dining-slider .owl-stage{padding-left:0 !important;}
+#tab-dining-slider .owl-nav{position: absolute; bottom: 0; right: 0;}
+.slider-counter-din{ position: absolute; right: 150px; bottom: 26px; z-index: 9; font: 400 18px/20px 'Oswald', sans-serif; letter-spacing: 2px; color: #eadab0;}
+
+#tab-meeting-slider{height:550px; position:relative;}
+#tab-meeting-slider .owl-stage-outer{position:absolute;}
+#tab-meeting-slider .owl-stage{padding-left:0 !important;}
+#tab-meeting-slider .owl-nav{position: absolute; bottom: 0; right: 0;}
+.slider-counter-mee{ position: absolute; right: 150px; bottom: 26px; z-index: 9; font: 400 18px/20px 'Oswald', sans-serif; letter-spacing: 2px; color: #eadab0;}
+
+#tab-wedding-slider{height:550px; position:relative;}
+#tab-wedding-slider .owl-stage-outer{position:absolute;}
+#tab-wedding-slider .owl-stage{padding-left:0 !important;}
+#tab-wedding-slider .owl-nav{position: absolute; bottom: 0; right: 0;}
+.slider-counter-wed{ position: absolute; right: 150px; bottom: 26px; z-index: 9; font: 400 18px/20px 'Oswald', sans-serif; letter-spacing: 2px; color: #eadab0;}
+
+#tab-facilities-slider{height:550px; position:relative;}
+#tab-facilities-slider .owl-stage-outer{position:absolute;}
+#tab-facilities-slider .owl-stage{padding-left:0 !important;}
+#tab-facilities-slider .owl-nav{position: absolute; bottom: 0; right: 0;}
+.slider-counter-fac{ position: absolute; right: 150px; bottom: 26px; z-index: 9; font: 400 18px/20px 'Oswald', sans-serif; letter-spacing: 2px; color: #eadab0;}*/
+
+
+
+#block-360view{padding:0 0 80px 0; position:relative;}
+#block-360view::after {
+    content: '';
+    position: absolute;
+    top: -53%;
+    right: -10px;
+    bottom: 0;
+    width: 183px;
+    height: 569px;
+    background: url(../assets/patterns/diamond.png) no-repeat;
+    background-size: cover;
+    background-position: 10px top;
+    z-index: 99;
+}
+#videos-block{padding:0 0 80px 0;}
+#videos-slider{height:315px; position:relative;}
+#videos-slider .owl-stage-outer{position:absolute;}
+#videos-slider .owl-stage{padding-left:0 !important;}
+#videos-slider .owl-nav{position: absolute; bottom: 0; right: 0;}
+#videos-slider .video-overlay{background: url(../assets/header-bck.png); width:100%; position:absolute; bottom:0; padding:25px 15px 20px 15px;}
+#videos-slider .video-overlay h4{letter-spacing: 0.3px; font: 300 15px/21px 'IBM Plex Sans', sans-serif; color:#f2f2f2; padding-left:2px;}
+.btn-play{width: 40px; height: 40px; background: url(../assets/icons-sprites.png) -5px -5136px; background-size: 150px;  display: inline-block; position: absolute; top: -22px;}
+
+#videos-block .owl-carousel .owl-item{overflow:hidden;}
+#videos-block .owl-carousel .owl-item img{margin: -25px -15px;}
+
+/*----------------------------------------*/
+.tab-menu-box .nav-tabs{width:100%;}
+.tab-menu-box .nav-tabs li{width:23%;}
+
+/*------ rooms page -------*/
+#amenities-container{position: absolute; z-index: 100; width: 100%; top: 420px;  }
+#amenities-container .amenities-bx{background:#0e0e0e; padding:25px 20px 24px 20px; box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.4);}
+.amenities-bx .amenities{float:left; text-align:center; width:calc(15.6% - 15px); padding: 0 10px; border:0px solid red;}
+.amenities-bx .amenities img{width: 40px;}
+.amenities-bx .amenities p{font: 300 13px/20px 'IBM Plex Sans', sans-serif; letter-spacing: 0.3px; color: #eadab0; margin:0; padding-top:8px;}
+
+#rooms-block{padding:160px 0 80px 0; position:relative;}
+#rooms-block::before {
+    content: '';
+    position: absolute;
+    bottom: 100px;
+    width: 230px;
+    height: 520px;
+    background: url(../assets/patterns/diamond.png) no-repeat;
+    background-size: cover;
+    background-position: -170px top;
+	z-index: -1;
+}
+#rooms-block::after {
+    content: '';
+    position: absolute;
+    top:-17%;
+    right: -20px;
+    bottom: 0;
+    width: 183px;
+    height: 569px;
+    background: url(../assets/patterns/diamond.png) no-repeat;
+    background-size: cover;
+    background-position: 10px top;
+    z-index:-1;
+}
+
+#rooms-block .room-bx{width:100%; background:#0e0e0e; margin-bottom:35px; }
+.room-bx .room-info-bx1{padding:15px 15px 13px 15px;}
+.room-bx .room-info-bx1 .rooms-img-bx{width:40%; float:left; padding-right:20px; position:relative;}
+.room-bx .room-info-bx1 .rooms-img-bx img{width:100%;}
+.room-bx .room-info-bx1 .view-img{background:url(../assets/view-overlay.png); padding:5px 7px 6px 35px; position:absolute; left:9px; top:9px; color:#be952e; text-transform: uppercase; letter-spacing: 0.5px; font: 400 15px/20px 'Oswald', sans-serif;}
+.room-bx .room-info-bx1 .view-img img{width:23px; position:absolute; left:6px; top:4px;}
+.room-bx .room-info-bx1 .room-content{width:60%; float:right; border:0px solid red; padding:10px 20px;}
+.room-bx .room-info-bx1 .room-content h3{font: 200 28px/38px 'Oswald', sans-serif; letter-spacing: 1.28px; color:#f2f2f2; text-transform: uppercase; float: left;}
+.room-bx .room-info-bx1 .room-content h5{float:right; letter-spacing: 0.3px;color: #ffffff; font: 300 14px/16px 'IBM Plex Sans', sans-serif; padding-top:7px;}
+.room-bx .room-info-bx1 .room-content h5 span{text-transform: uppercase; font: 300 20px/20px 'IBM Plex Sans', sans-serif;letter-spacing: 1.5px; color: #f2f2f2; position: relative; top: 2px;}
+.room-bx .room-info-bx1 .room-content h5 span b{text-transform: uppercase; font:600  16px/20px 'Oswald', sans-serif;letter-spacing: 1px; color: #f2f2f2;}
+.hroom-line{background-image: linear-gradient(to right, #f2f2f2 40%, rgba(255, 255, 255, 0) 20%);  background-position: bottom;  background-size: 3px 1.6px;  background-repeat: repeat-x; padding-bottom: 14px;}
+.room-detail{position:relative;}
+.room-detail .view-more{position: absolute; top:13px; right: 0; font: 400 13px/20px 'Oswald', sans-serif; letter-spacing: 1.44px; color: #be952e; border-bottom: 1px solid #be952e; text-transform: uppercase;  padding-bottom: 0.5px;}
+.room-detail .room-amenities{padding:0; margin:15px 0 0 0; float: left;}
+.room-detail .room-amenities li{font:400 14px/19px  'IBM Plex Sans', sans-serif; letter-spacing: 0.3px; color: #eadab0; padding:8px 0 8px 32px; position:relative;}
+.room-detail .room-amenities li a{font: 300 15px/20px 'IBM Plex Sans', sans-serif; letter-spacing: 0.3px; color: #eadab0;}
+.room-detail .room-amenities li img{width:25px; position: absolute; top: 4.5px; left: 0;}
+
+.book-room{ font: 400 13px/20px 'Oswald', sans-serif; letter-spacing: 1.44px; color: #be952e; text-transform: uppercase; padding:12px 75px 11px 75px; border:1px solid #be952e; background:transparent; position: absolute; bottom: 0; right: 0;}
+/*.book-room:hover{background:#be952e; color:#fff;}*/
+
+.room-info-bx1:hover{cursor:pointer; background:#212121;}
+.room-info-bx1:hover .book-room{background:#be952e; color:#fff;}
+.room-detail .room-amenities li a:hover{color:#fff;}
+.room-detail .view-more:hover{color:#fff; border-bottom:1px solid #fff;}
+
+
+.room-info-bx2{display:none; background:#272727; padding:20px 20px 15px 20px; position:relative; border:1px solid #be952e;}
+.room-amenities-list h4{letter-spacing: 0px; color: #eadab0; padding-bottom: 20px; font: 500 22px/24px 'Oswald', sans-serif; text-transform: uppercase; background:#272727; float:left; margin-top: -18px; padding-right: 8px;}
+
+.room-amenities-list .room-amenities{padding:0; margin:15px 0 0 0; float: left;}
+.room-amenities-list .room-amenities li{font: 300 15px/20px 'IBM Plex Sans', sans-serif; letter-spacing: 0.3px; color: #eadab0; padding:10px 0 10px 32px; position:relative; width: 25%;  float: left;}
+.room-amenities-list .room-amenities li a{font: 300 15px/20px 'IBM Plex Sans', sans-serif; letter-spacing: 0.3px; color: #eadab0;}
+.room-amenities-list .room-amenities li img{width:25px; position: absolute; top: 4.5px; left: 0;}
+.room-info-bx2 .close-btn{ position: relative; top: 0px; right: 0px; padding: 5px; float: right; z-index:99;}
+.room-info-bx2 .close-btn img{width:30px;}
+.room-info-bx2 .close-btn:hover{cursor:pointer;}
+.pbook-room{ font: 400 13px/20px 'Oswald', sans-serif; letter-spacing: 1.44px; color: #fff; text-transform: uppercase; padding:12px 75px 11px 75px; border:1px solid #be952e; background:#be952e; margin:20px 30px 20px 0; float:right;}
+
+.rooms-slideshow-bx{width:100%; border:0px solid red; padding:10px; margin-bottom:25px;}
+.current{border:0px solid red;}
+
+.rslider-box{position:relative;}
+.left-info-bx{width:58%; float:left; position:relative;}
+.right-info-bx{width:40%; float:right;}
+
+.right-info-bx .calen-icon{width:30px; height:26px; background: url(../assets/icons-sprites.png); background-size: 165px; background-repeat: no-repeat;  background-position:right -8.1em top -1143.5px, 0 0; float: left;}
+.right-info-bx p{font:400 14px/19px 'IBM Plex Sans', sans-serif; letter-spacing: 0.3px; color: #eadab0; padding:15px 0 10px 0px; margin:0 0 0px 0;}
+.right-info-bx p.timing-txt{font: 300 15px/20px 'IBM Plex Sans', sans-serif; letter-spacing: 0.3px; color: #eadab0; padding:3.5px 0 0px 38px; margin:0 0 5px 0;}
+.hotel-room-txt{padding-top: 8px;}
+
+.left-info-bx .owl-carousel .owl-nav{position: absolute; right: -125px; bottom: -1px;}
+.right-info-bx .owl-carousel{margin-top:20px;}
+.right-info-bx .owl-carousel .owl-stage{padding-left:0 !important;}
+.rooms-counter{position: absolute;right: 0px; bottom: 10px; z-index: 9; font: 400 18px/20px 'Oswald', sans-serif; letter-spacing: 2px; color: #eadab0;}
+.room-slider-overlay{padding:15px; background:url(../assets/header-bck.png); width:100%; position:absolute; left:0; bottom:0; z-index: 9;}
+.room-slider-overlay h3{font: 200 27px/38px 'Oswald', sans-serif; letter-spacing: 1.28px; color:#f2f2f2; text-transform: uppercase; float: left;}
+.room-slider-overlay h5{float:right; letter-spacing: 0.3px;color: #ffffff; font: 300 14px/16px 'IBM Plex Sans', sans-serif; padding-top:7px;}
+.room-slider-overlay h5 span{text-transform: uppercase; font: 300 22px/20px 'IBM Plex Sans', sans-serif;letter-spacing: 1.5px; color: #f2f2f2; position: relative; top: 2px;}
+.room-slider-overlay h5 span b{text-transform: uppercase; font:600  18px/20px 'Oswald', sans-serif;letter-spacing: 1px; color: #f2f2f2;}
+
+#rooms-slide-m{display:none;}
+.m-room-info{display:none;}
+
+
+#deltin-casino-tabs{padding:0 0 80px 0; position:relative;}
+#deltin-casino-tabs::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -2%;
+    width: 170px;
+    height:272px;
+    background: url(../assets/patterns/flower.png) no-repeat;
+    background-size: cover;
+    background-position: 1px top;
+}
+
+#deltin-casino-tabs .link-box-tab{text-align: right;}
+#dresscode {margin-top:0px;}
+#dresscode .owl-nav{text-align: right; padding: 40px 0 0 0;}
+#deltin-casino-tabs .link-box-mob{display:none;}
+
+.golden-logo{color:#be952e !important;}
+
+p.event-txt{color: #eadab0;
+    letter-spacing: 0.3px;
+    font: 300 15px/21px 'IBM Plex Sans', sans-serif;
+    padding-bottom:60px;
+    margin: 0; width:65%;}
+
+#tariff-block{padding: 140px 0 80px 0;}	
+#tariff-block h1{color: #eadab0; font: 200 30px/42px 'Oswald', sans-serif; letter-spacing: 1.5px; text-transform: uppercase; padding-bottom: 35px;}
+#tariff-block .tariff-container .tariff-list-bx {
+    border: 0px solid blue;
+    width: 73%;
+    float: left;
+    padding: 0px;
+}
+
+.pack-include-list{border:0px solid yellow; padding:20px 10px 10px 0px;}
+.pack-include:nth-child(1){width:22%; float:left;}
+.pack-include:nth-child(2){width:30%; float:left;}
+.pack-include:nth-child(3){width:23%; float:left;}
+.pack-include:nth-child(4){width:25%; float:left;}
+.pack-include img{width:86px; margin-left:10px;}
+.pack-include h3{letter-spacing: 1px; color: #be952e; font: 400 25px/32px 'Oswald', sans-serif; text-transform: uppercase;}
+
+.tariff-list-bx .offer-box {
+    width: 100%;
+    float:none;
+    border: 0px solid blue;
+    padding:40px 0 45px 0;
+	text-align:center;
+}
+.tariff-list-bx .line {
+    width:88%;
+    height: 1px;
+    background-image: linear-gradient(to right, #000000, #2e2626, #594744, #866c61, #b1967e, #b1967e, #b1967e, #b1967e, #866c61, #594744, #2e2626, #000000);
+    position: relative;
+    left: -20px;
+	margin: 0 auto;
+}
+.tariff-list-bx .offer-box .off-icon {
+    height: 24px;
+    position: relative;
+    top:2px;
+}
+.tariff-list-bx .offer-box h3 {
+    letter-spacing: 1px;
+    color: #eadab0;
+    font: 400 26px/32px 'Oswald', sans-serif;
+    display: inline-block;
+    padding: 10px 0 10px 10px;
+	text-transform:uppercase;
+	
+}
+
+
+.casino-tariff-list{padding-bottom: 40px;}
+.casino-tariff-list.last{padding-bottom:0;}
+
+.casino-tariff-list .package-icon{
+    height: 40px;
+    float: left;
+    position: relative;
+    top: -9.5px;
+}
+
+.casino-tariff-list h2{
+    font: 300 25px/30px 'Oswald', sans-serif;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    color: #9d8e67;
+}
+
+.casino-tariff-list .package-types {
+    width: 100%;
+    padding-top: 20px;
+}
+.casino-tariff-list .package-types .single-package {
+    border: solid 1px #756d58;
+    background-color: #0b0b0b;
+    width: calc(33.33% - 13.5px);
+    padding: 20px 25px 0px 25px;
+    float: left;
+    margin-bottom: 22px;
+    
+}
+.casino-tariff-list .package-types .single-package:nth-child(3n+1) {margin-right: 10px;}
+.casino-tariff-list .package-types .single-package:nth-child(3n+2) {margin: 0 10px;}
+.casino-tariff-list .package-types .single-package:nth-child(3n+3) {margin-left: 10px;}
+.casino-tariff-list .package-types .single-package h3 {
+    background-image: linear-gradient(to right, #f2f2f2 40%, rgba(255, 255, 255, 0) 20%);
+    background-position: bottom;
+    background-size: 3px 1.6px;
+    background-repeat: repeat-x;
+    padding-bottom: 14px;
+    margin-bottom: 15px;
+	text-transform: uppercase;
+    font: 400 23px/28px 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: #f2f2f2;
+	opacity: 0.7;
+}
+
+.casino-tariff-list .package-details {
+    height: 230px;
+    overflow: hidden;
+}
+.casino-tariff-list .package-types .single-package ul {
+    margin: 0 0 0px 0;
+    padding-left: 20px;
+	opacity: 0.7;
+	height: 180px;
+    overflow: hidden;
+}
+.casino-tariff-list .package-types .single-package ul li {
+    letter-spacing: 0.6px;
+    color: #eadab0;
+    font: 300 13px/18px 'IBM Plex Sans', sans-serif;
+    padding: 0 0 10px 0;
+}
+.casino-tariff-list .package-types .single-package ul li span{
+	font: 600 14px/20px 'IBM Plex Sans', sans-serif;
+	color:#c1982e;
+}
+
+.casino-tariff-list .package-types .single-package ul li::before {
+    content: "";
+    background: url(../assets/icons-sprites.png) -4px -54px;
+    background-size: 130px;
+    display: inline-block;
+    width: 1.5em;
+    height: 17px;
+    margin-left: -1.5em;
+    position: relative;
+    top: 2px;
+}
+.casino-tariff-list .package-types .single-package ul li strong {
+    font-weight:500;
+}
+.casino-tariff-list .popup-btn {
+    font: normal 15px/1.47 'IBM Plex Sans', sans-serif;
+    letter-spacing: 0.6px;
+    color: #be952e;
+    border-bottom: 1px solid #be952e;
+    padding-bottom: 1px;
+    margin-left: 20px;
+}
+.casino-tariff-list h2 span {
+    letter-spacing: 0.3px;
+    color: #eadab0;
+    opacity: 0.8;
+    font: 300 14px/18px 'IBM Plex Sans', sans-serif;
+    text-transform: initial;
+    float: right;
+    position: relative;
+    top: 12px;
+}
+
+.tariff-btn-bx{width:100%;}
+.tariff-btn-bx .tariff-btn{background: #be952e;
+    text-transform: uppercase;
+    border: 1px solid #be952e;
+    color: #fff;
+    font: 400 15px/20px 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    padding: 13px 0;
+    width: 100%;
+    margin: 10px 0 0 0;}
+.tariff-btn-bx .tariff-btn:hover{background:#ac8523;}
+.info-box span.note {
+    float: left;
+    padding-right: 3px;
+    color: #eadab0;
+    font: 300 15px/22px 'IBM Plex Sans', sans-serif;
+}
+.info-box p {
+    color: #eadab0;
+    font:400 14px/20px 'IBM Plex Sans', sans-serif;
+    padding-left: 38px;
+}
+.info-box ul {
+    margin: 0;
+    padding: 15px 0 0 0;
+}
+.info-box ul li {
+    display: inline-block;
+    padding-right: 40px;
+    font: 400 18px/28px 'Oswald', sans-serif;
+    letter-spacing: 1.44px;
+    color: #be952e;
+}
+.info-box ul li a {
+    font: 400 14px/20px 'Oswald', sans-serif;
+    letter-spacing: 1.44px;
+    color: #be952e;
+    border-bottom: 1px solid #be952e;
+    padding-bottom: 2px;
+	text-transform: uppercase;
+}
+.info-box ul li a:hover{color:#fff; border-bottom: 1px solid #fff;}
+
+/* popup modal */
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #be952e;
+    
+}
+
+.close:focus,
+.close:hover {
+    color: #be952e;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+button.close {
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.modal-open {
+    overflow: hidden
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index:100050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0
+}
+
+.modal.fade .modal-dialog {
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    -o-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out, -webkit-transform .3s ease-out, -o-transform .3s ease-out;
+	
+}
+
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0)
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+	background: url("../assets/header-bck.png");
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+	top: 25%;
+	background-color: #212121;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #212121;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    outline: 0
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000
+}
+
+.modal-backdrop.fade {
+    filter: alpha(opacity=0);
+    opacity: 0
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .5
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 0px solid #e5e5e5
+}
+
+.modal-header .close {
+    margin-top: -2px;
+	position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.modal-title {
+    margin: 0;
+    font: 300 28px/34px 'Oswald', sans-serif;
+	letter-spacing: 1.64px;
+    color: #eadab0;
+}
+
+.modal-body {
+    position: relative;
+    padding: 15px
+}
+
+.modal-body ul{}
+.modal-body ul li{letter-spacing: 0.3px; color: #eadab0; font: 300 15px/20px 'IBM Plex Sans', sans-serif; padding-bottom:8px;}
+.modal-body ul{margin-bottom:0;}
+.modal-body ul li:last-child{padding-bottom:0;}
+.modal-body ul li::before {
+    content: "";
+    background: url(../assets/icons-sprites.png) -4px -54px;
+    background-size: 130px;
+    display: inline-block;
+    width: 1.5em;
+    height: 17px;
+    margin-left: -1.5em;
+    position: relative;
+    top: 2px;
+}
+
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 0px solid #e5e5e5
+}
+
+.modal-footer .btn+.btn {
+    margin-bottom: 0;
+    margin-left: 5px
+}
+
+.modal-footer .btn-group .btn+.btn {
+    margin-left: -1px
+}
+
+.modal-footer .btn-block+.btn-block {
+    margin-left: 0
+}
+
+.modal-scrollbar-measure {
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+    height: 50px;
+    overflow: scroll
+}
+
+/*popup know more styling*/
+#know-more .modal-dialog{top: 22%;}
+#know-more .modal-content{}
+#know-more .modal-header .package-heading{width:73%; float:left;}
+#know-more .modal-header .package-heading h3{margin: 0; font: 300 23px/26px 'Oswald', sans-serif; letter-spacing:0.5px; color: #eadab0; text-transform:uppercase;}
+#know-more .modal-header .package-heading h3 span{font: 300 20px/24px 'Oswald', sans-serif; color:#f2f2f2;}
+#know-more .modal-header .pack-details{width:27%; float:right; position: relative; top: -12px;}
+
+#know-more .modal-header .pack-details h6{width:50%; float:left; font: 400 23px/28px 'Oswald', sans-serif; letter-spacing: 1px; color: #f2f2f2;}
+#know-more .modal-header .pack-details h6 span{letter-spacing: 0.48px; color:#eadab0; opacity: 0.7; font: 400 14px/1.47 'IBM Plex Sans', sans-serif;}
+
+#know-more .modal-body {position: relative; padding: 0px 15px 15px 15px; height: 460px;
+    overflow: auto;}
+
+#know-more .modal-body h4{color:#9d8e67; letter-spacing: 0.5px; text-transform: uppercase; font: 400 15px/24px 'Oswald', sans-serif; padding-bottom: 25px;}
+
+.package-include-list{width:100%; padding-bottom: 20px;}
+.package-include-list .package-include{width:33.33%; float:left; height: 45px; margin-bottom: 10px}
+.package-include-list .package-include:nth-child(3n){clear:right; }
+.package-include-list .package-include img{height:24px; float:left; margin-right:10px; position: relative; top: 2px;}
+.package-include-list .package-include p{letter-spacing: 0.6px; color: #eadab0; font: 300 14px/18px 'IBM Plex Sans', sans-serif;}
+.white-dotted-line{background-image: linear-gradient(to right, #f2f2f2 40%, rgba(255, 255, 255, 0) 20%); background-position: bottom; background-size: 3px 1.6px; background-repeat: repeat-x; padding: 5px 0 0 0;  margin: 5px 0 8px 0; width: 100%;}
+.drinks-list{width:100%; position:relative;}
+.drinks-list p{letter-spacing: 0.6px; color: #9d8e67; font: 300 13px/18px 'IBM Plex Sans', sans-serif; padding:10px 0 5px 0;}
+.rates{width:100%; position:relative; margin-top:40px;}
+#know-more .modal-body h5.package-sub-heading{color:#9d8e67; letter-spacing: 0.5px; text-transform: uppercase; font: 400 15px/24px 'Oswald', sans-serif; position: absolute; top: -12px; background:#212121; padding-right: 7px;}
+#know-more .modal-body ul{padding-top:13px;}
+#know-more .modal-body .drinks-list ul li{width:33.33%; float:left; padding-right: 35px;}
+#know-more .modal-body .rates ul li b{font:400 15px/20px 'IBM Plex Sans', sans-serif;}
+#know-more .modal-body .rates ul li span{font:400 15px/20px 'IBM Plex Sans', sans-serif; color:#ffffff;}
+
+.hotel-main-page #type-events{position:relative;}
+.hotel-main-page #type-events::before {
+    content: '';
+    position: absolute;
+    top: -13%;
+    bottom: 0;
+    width: 230px;
+    height: 520px;
+    background: url(../assets/patterns/diamond.png) no-repeat;
+    background-size: cover;
+    background-position: -170px top;
+}
+
+.hotel-main-page #type-events::after {
+    content: '';
+    position: absolute;
+    top: -5%;
+    right: 0;
+    bottom: 0;
+    width: 183px;
+    height: 520px;
+    background: url(../assets/patterns/diamond.png) no-repeat;
+    background-size: cover;
+    background-position: 10px top;
+}
+
+.about-hotels::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 230px;
+    height: 520px;
+    background: url(../assets/patterns/diamond.png) no-repeat;
+    background-size: cover;
+    background-position: -170px top;
+}
+
+#questions-block{padding:0 0 110px 0; position:relative;}
+.tab-bx{border:0px solid red; margin-top:10px;}
+#questions-block .tab-pane
+{
+  padding:40px 0 15px 0;
+  position: relative;
+}
+#questions-block .nav-tabs
+{
+  position:relative;
+  border:0;
+  background-color:transparent;
+  border-radius:0px;
+  margin:0;
+ 
+  float: left;
+}
+
+#questions-block .nav-tabs{ width: 70%;}
+#questions-block .nav-tabs li
+{
+  margin:0px 0 0 -2px;
+  position:relative;
+  border:1px solid #be952e;
+ 
+  color:#be952e;
+}
+
+#questions-block .nav-tabs li{ width: 25%;}
+#questions-block .nav-tabs li.first-item{margin:0px 0 0 0px;}
+
+#questions-block .nav-tabs li a
+{
+  position:relative;
+  margin-right:0px;
+  padding: 12px 0 14px 0px;
+  text-align: center;
+  border:none;
+  color:#be952e;
+  font:400 14px/20px 'Oswald', sans-serif; letter-spacing:1px;
+  text-transform:uppercase;
+}
+#questions-block  .nav-tabs li a{padding: 10px 0 10px 0px;}
+#questions-block .nav-tabs a:hover
+{
+  border:none;
+}
+#questions-block .slider
+{
+  display:inline-block;
+  width:30px;
+  height:100%;
+  border-radius:0px;
+  background-color:#be952e;
+  position:absolute;
+  z-index:1200;
+  bottom:0;
+  transition:all .2s linear;
+  
+}
+#questions-block .nav-tabs .active
+{
+	color: #fff;
+    position: absolute;
+    z-index: 9998;
+    background: #be952e;
+    width: 100%;
+    border-radius: 0;
+}
+
+#questions-block .package h3 {
+    text-align: left;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font: 400 22px/24px 'Oswald', sans-serif;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#questions-block .link-box-tab {
+    padding:10px 0 5px 0;
+    width: auto;
+    float: right;
+}
+
+#questions-block .package {
+    text-align: center;
+}
+
+
+@media (min-width:768px) {
+    .modal-dialog {
+        width: 700px;
+        margin: 30px auto
+    }
+    .modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+		padding:20px 30px;
+    }
+    .modal-sm {
+        width: 300px
+    }
+}
+
+@media (min-width:992px) {
+    .modal-lg {
+        width: 900px
+    }
+}
+/*--------------------------------*/
+
+/*------ Hotels media queries-----------------*/
+@media screen and (min-width:1600px){
+	#contact-us .map-bx { width: 70%; float:none; left:unset; right:0;}
+}
+@media screen and (max-width:1200px){
+	
+	#owl-demo {height: auto !important;}
+	#overview {padding: 155px 0 40px 0;}
+	.hotel-description-bx .right-description {width: 42%; float: right;}
+	.hotel-description-bx .right-description h2 {font: 200 30px/36px 'Oswald', sans-serif; padding: 0px 0 8px 0;}
+	.hotel-description-bx .right-description p {font: 300 14px/20px 'IBM Plex Sans', sans-serif; padding-bottom: 20px;}
+	.hotel-description-bx .certified-bx img {height: 75px;}
+	.hotel-description-bx .certified-bx a.view-link {font: 400 13px/24px 'Oswald', sans-serif;}
+	.hotel-description-bx .certified-bx .view-link {top: 21%; left: 40%;}
+	.explore-btn {width: 60%; font: 400 16px/24px 'Oswald', sans-serif; padding: 9px 0; margin-top: 23px;}
+	
+	#description-block {padding: 0 0 100px 0;}
+	
+	.sub-pages #type-events {padding: 0 0 100px 0 !important;}
+	
+	.hotels-deals .link-box { top: -18px;  right: 20px;}
+	#offers .offer-block .offer-content .content-inner-box .offer-info {padding-top: 5px !important;}
+	.hotels-deals .offers-slider-outer .owl-nav {bottom: 5px;}
+	
+	#rooms {height: 400px;}
+	.hotels-rooms .offers-slider-outer { height: 400px;}
+	.hotels-rooms .slider-height {height: auto !important;}
+	.hotels-rooms .link-box {right: 20px;}
+	#dining {height: 500px; position: relative;}
+	#facilities{height:500px; position:relative;}
+	#wedding{height:500px; position:relative;}
+	#meetings{height:500px; position:relative;}
+	.sub-pages #dining {height: 500px; position: relative;}
+	.sub-pages #facilities{height:500px; position:relative;}
+	.sub-pages #weddings{height:500px; position:relative;}
+	.sub-pages #meetings{height:500px; position:relative;}
+	
+	.hotel-venus-info .venu-info-bx:nth-child(1){padding: 80px 0 20px 0;}
+	.hotel-venus-info .venu-info-bx:nth-child(2){padding: 40px 0 30px 0;}
+	
+	#event-testimonal-bx .testimonal-bx {padding:25px 30px;}
+	.sub-pages .hotel-description-bx .right-description {padding-top: 35px;}
+	
+	#offers-block .offer-block {width: calc(33.33% - 10px); margin-bottom: 15px;}
+	#offers-block .offer-block:nth-child(3n+1){margin-right:7.5px;}
+	#offers-block .offer-block:nth-child(3n+2){margin:0 7.5px;}
+	#offers-block .offer-block:nth-child(3n+3){margin-left:7.5px;}
+	#offers-block .offer-block .offer-content .content-inner-box .offer-info {height: 180px}
+	
+	#videos-slider {height:260px;}
+	.gallery-sliders .owl-carousel{height: 500px; position: relative;}
+	
+	#events-slider-bx {margin-bottom: 70px;}
+	.event-booking-block {padding: 20px 30px 25px 30px; width: 40%;}
+	
+	#amenities-container {top: 315px;}
+	#amenities-container .amenities-bx {padding: 20px 10px 19px 10px;}
+	
+	.amenities-bx .amenities p {font: 300 14px/20px 'IBM Plex Sans', sans-serif;}
+	.amenities-bx .amenities img {width: 35px;}
+	
+	#rooms-block {padding: 160px 0 80px 0;}
+	.room-bx .room-info-bx1 .room-content {padding:0px 10px 0 10px;}
+	.room-bx .room-info-bx1 .room-content h3 {font: 200 22px/30px 'Oswald', sans-serif;}
+	.room-detail .room-amenities {margin: 10px 0 0 0;}
+	.room-detail .room-amenities li {font: 300 14px/18px 'IBM Plex Sans', sans-serif;padding: 7px 0 7px 32px;}
+	.room-detail .room-amenities li img {width: 23px;}
+	.room-detail .view-more {top: 7px;}
+	.book-room{padding: 10px 60px 9px 60px;}
+	.room-bx .room-info-bx1 .room-content h5 {font: 300 12px/16px 'IBM Plex Sans', sans-serif; padding-top: 5px;}
+	.room-bx .room-info-bx1 .room-content h5 span {font: 300 18px/20px 'IBM Plex Sans', sans-serif;}
+	.room-bx .room-info-bx1 .room-content h5 span b {font: 500 15px/20px 'Oswald', sans-serif;}
+	
+	.room-bx .room-info-bx1 .view-img{font: 400 13px/20px 'Oswald', sans-serif; padding: 4px 6px 4px 30px;}
+	.room-bx .room-info-bx1 .view-img img {width: 20px; left: 4px;  top: 4px;}
+	
+	.room-info-bx2 {padding: 15px 15px 5px 15px;}
+	.hotel-room-txt {padding-top: 0px;}
+	.left-info-bx {width: 53%;}
+	.right-info-bx {width: 44.5%;}
+	.hotel-room-txt .hroom-line{padding-bottom: 10px;}
+	.right-info-bx p {font: 300 13px/17px 'IBM Plex Sans', sans-serif; padding: 9px 0 0px 0px; margin: 0 0 0px 0;}
+	.right-info-bx .owl-carousel{margin-top: 12px;}
+	
+	.room-slider-overlay {padding: 3px 15px;}
+	.room-slider-overlay h3 {font: 200 24px/38px 'Oswald', sans-serif;}
+	
+	.casino-tariff-list .package-types .single-package{padding: 10px 15px 0px 15px;}
+	.casino-tariff-list .package-types .single-package:nth-child(3n+1){margin-right:7px;}
+	.casino-tariff-list .package-types .single-package:nth-child(3n+2){margin:0 7px;}
+	.casino-tariff-list .package-types .single-package:nth-child(3n+3){margin-left:7px;}
+	
+	.hotel-main-page #type-events::before{display:none;}
+	.hotel-main-page #type-events::after{display:none;}
+	.about-hotels::before{display:none;}
+	#rooms-block::after{display:none;}
+	#rooms-block::before{display:none;}
+	#rooms-block::after{display:none;}
+	.sub-pages #description-block::after{display:none;}
+	.sub-pages #description-block::before{display:none;}
+	#block-360view::after{display:none;}
+	#about-casion-tabs .owl-carousel {
+		height: 440px;
+		position: relative;
+	}
+}
+
+@media screen and (max-width:991px){
+	.booking-block .hotel-logo {width: 100%; padding:6px 0 10px 0px;}
+	.booking-block .hotel-date-selector {width: 100%; padding-right: 0px; padding-bottom: 14px;}
+	.hotels-booking .booking-btn {width: 100% !important;}
+	
+	#overview { padding: 25px 0 40px 0; }
+	
+	#description-block .left-description {display: none;}
+	.hotel-description-bx .right-description {width: 100%; float:none;}
+	.explore-btn {width: 35%; padding: 10px 0; margin-top: 40px;}
+	
+	.hotel-description-bx .right-description h2 {font: 200 34px/40px 'Oswald', sans-serif; padding: 0px 0 10px 0;}
+	.hotel-description-bx .right-description p {font: 300 15px/21px 'IBM Plex Sans', sans-serif; padding-right: 50px; padding-bottom: 30px;}
+	.hotel-description-bx .certified-bx img {height: 108px;}
+	.hotel-description-bx .certified-bx a.view-link { font: 400 14px/24px 'Oswald', sans-serif;}
+	.hotel-description-bx .certified-bx .view-link {top: 28%; left: 35%;}
+	.mob-pic-bx{display:block; padding-top:30px;}
+	/*.mob-pic-bx img{width:100%;}*/
+	
+	.venu-info-bx {width: 100%; float: none; padding: 35px 0 0 0;}
+	
+	/*#about-casion-tabs .nav-tabs {width: 85% !important;}*/
+	#dining {height: 475px; position: relative;}
+	#facilities{height:475px; position:relative;}
+	#wedding{height:475px; position:relative;}
+	#meetings{height:475px; position:relative;}
+	#about-casion-tabs .owl-carousel {height: 400px; position: relative;}
+	
+	.sub-pages #dining {height: 475px; position: relative;}
+	.sub-pages #facilities{height:475px; position:relative;}
+	.sub-pages #weddings{height:475px; position:relative;}
+	.sub-pages #meetings{height:475px; position:relative;}
+	
+	#rooms {height: 430px;}
+	.hotels-rooms .link-box {top: -25px;}
+	.gallery-btn {width: 30%;}
+	.gaming-btn {width: 30%;}
+	
+	#contact-us .contact-box {width: 48%;}
+	
+	#other-hotels .hotel-list-bx .hotel-info {width: 45%;}
+	
+	#sub-header .cd-primary-nav{display:block;}
+	#sub-header .sub-nav-list ul li a {font: 400 14px/20px 'Oswald', sans-serif;}
+	
+	.sub-pages #description-block {padding: 0 0 40px 0;}
+	.sub-pages .hotel-description-bx .right-description {padding-top: 0px;}
+	.hotel-description-bx .right-description h2 br{display:none;}
+	#events-slider-bx {margin-bottom: 65px;}
+	.venu-info-bx .venu-content-bx{margin-bottom: 20px;}
+	.venu-info-bx .venu-content-bx:nth-child(3n+1){width:32%;}
+	.venu-info-bx .venu-content-bx:nth-child(3n+2){width:34%;}
+	.venu-info-bx .venu-content-bx:nth-child(3n+3){width:33%;}
+	
+	.hotel-venus-info .venu-info-bx:nth-child(1){padding: 60px 0 20px 0;}
+	.venu-facilities .single-facility{padding: 0px 0;}
+	.venu-facilities .single-facility:nth-child(1) {width: 18.5%;}
+	.venu-facilities .single-facility .facility-content img {width: 60px; position: relative; top: 2px;}
+	.venu-facilities .single-facility .facility-content {padding-left:22px; position: relative;}
+	.venu-facilities .single-facility .facility-content p {font: 300 13px/21px 'IBM Plex Sans', sans-serif;}
+	#event-testimonal-bx .testimonal-bx {padding: 35px 30px;}
+	#event-testimonal-bx .testimonal-bx p{font-size:18px;}
+	#event-testimonal .testimonal-bx h4 {font: 500 20px/20px 'Oswald', sans-serif;}
+	#brochures-bx .pdf-icon {height: 22px;}
+	#brochures-bx .brochures-list .brochures-block a{font: 400 14px/20px 'IBM Plex Sans', sans-serif; margin-left: 25px;}
+	#brochures-bx .download-icon {width: 16px;}
+	#brochures-bx .brochures-list .brochures-block h4 {padding: 0 0 5px 0px; font: 500 18px/20px 'Oswald', sans-serif;}
+	
+	#offers-block .offer-block {width: calc(50% - 10px); margin-bottom: 15px;}
+	#offers-block .offer-block:nth-child(3n+1){margin-right:0px; clear:none;}
+	#offers-block .offer-block:nth-child(3n+2){margin:0 0 20px 0;}
+	#offers-block .offer-block:nth-child(3n+3){margin-left:0px;}
+	#offers-block .offer-block:nth-child(2n+1){margin-right:10px; clear:left;}
+	#offers-block .offer-block:nth-child(2n+2){margin-left:10px;}
+	#offers-block .offer-block .offer-content .content-inner-box .offer-info {height: 180px}
+	
+	.gallery-sliders .owl-carousel{height: 470px; position: relative;}
+	
+	.event-booking-block {padding: 20px 30px 25px 30px; width: 65%;  margin: 0 auto; top: 330px; left: 0;  right: 0;}
+	.sub-pages #description-block {padding: 210px 0 40px 0;}
+	
+	#rooms-page #owl-demo {padding-bottom: 180px;}
+	#rooms-block {padding: 0px 0 80px 0;}
+	
+	.amenities-bx .amenities{width:25%;}
+	.amenities-bx .amenities:nth-child(5), .amenities-bx .amenities:nth-child(6), .amenities-bx .amenities:nth-child(7){display:none;}
+	#amenities-container {top: 245px;}
+	
+	#rooms-page #owl-demo {padding-bottom: 145px;}
+	
+	.left-info-bx {width: 56%;}
+	.right-info-bx {width: 42%;}
+	
+	.room-amenities-list .room-amenities li {padding: 10px 10px 10px 32px; width: 33%;}
+	.right-info-bx  .owl-carousel{display: none;}
+	.rooms-counter{display:none;}
+	
+	.left-info-bx .owl-carousel .owl-nav {position: absolute;  right: -115px; bottom: -2px;}
+	.right-info-bx p.timing-txt {font: 300 13px/20px 'IBM Plex Sans', sans-serif; padding: 3.5px 0 0px 38px; margin: 0 0 3px 0;}
+	
+	.room-slider-overlay {padding: 3px 10px;}
+	.room-slider-overlay h3 {font: 200 18px/34px 'Oswald', sans-serif;}
+	.room-slider-overlay h5 {font: 300 13px/15px 'IBM Plex Sans', sans-serif; padding-top: 5px;}
+	.room-slider-overlay h5 span {font: 300 18px/20px 'IBM Plex Sans', sans-serif;}
+	.room-slider-overlay h5 span b {font: 600 16px/20px 'Oswald', sans-serif;}
+	
+	.venu-page{padding-bottom:225px;}
+	p.event-txt{width:100%; padding-bottom: 40px;}
+	
+	.booking-block .casino-logo { width: 100%; padding: 14.5px 0 0.5px 22px;}
+	.booking-block .casino-date-selector {
+    width: 100%;
+    float: left;
+    border: 0px solid red;
+    padding-right: 25px;}
+	.casino-booking .booking-btn {margin-top:10px; width: 100% !important;}
+	.booking-block .casino-date-selector .casino-check-in {width: 100%; margin: 5px 0 16px 0;}
+	
+	#tariff-block .tariff-container .tariff-list-bx {width: 100%;}
+	.tariff-container .tariff-list-bx .package-types{padding-top: 10px;}
+	.tariff-list-bx .package-types .single-package{width: calc(33.33% - 10px);}
+	#know-more .modal-body {height: 400px;}
+	
+	#tariff-block h1 {font: 200 38px/48px 'Oswald', sans-serif;}
+	.modal-dialog {top: 22%;}
+	
+	#description-block.side-pattern .hotel-description-bx .right-description{width:100%; float:none;}
+	.explore-btn-o {width: 40%;}
+	.side-pattern::after {
+    content: '';
+    position: absolute;
+    top: -13%;
+    right: -35px;
+    bottom: 0;
+    width: 183px;
+    height: 420px;}
+	#contact-us .map-bx {
+    width: 51%;}
+	
+	#contact-us .address-box{padding: 20px 20px;}
+	#contact-us .contact-form-bx {padding: 40px 20px 49px 20px;}
+	.offers-slider-outer {
+		position: relative;
+		height: 430px;
+	}
+	#videos-slider {
+        height:280px;
+    }
+     #about-casion-tabs .owl-carousel .owl-stage-outer, #about-casion-tabs .owl-carousel .owl-stage-outer, #about-casion-tabs .owl-carousel .owl-stage-outer, .about-casion-block .owl-carousel .owl-stage-outer {
+        position: absolute;
+        margin-top: -22px;
+    }
+}
+@media screen and (max-width:740px){
+	#know-more .modal-dialog {top: 24%;}
+}
+
+@media screen and (max-width:680px){
+	.container-small h1 {padding-bottom: 30px;}
+	
+	.desk-banner-h{display:none !important;}
+	.mob-banner-h{display:block !important;}
+	
+	#owl-demo .owl-dots{left:15px !important; text-align:left !important; bottom:70px !important;}
+	
+	.booking-container { bottom:-60px !important;}
+	
+	#overview {padding: 215px 0 10px 0;overflow: auto; width: 100%;}
+	.scroll-menu{width:1000px;}
+	
+	.venu-facilities .single-facility:nth-child(1) {width: 20%;}
+	.venu-facilities .single-facility .facility-content {padding-left: 20px; position: relative;}
+	.venu-facilities .single-facility .facility-content hr{display:none;}
+	
+	#about-casion-tabs .nav-tabs {width: 100% !important;}
+	.venu-facilities {padding-bottom: 35px;}
+
+	.sub-pages #dining {height: 400px; position: relative;}
+	.sub-pages #facilities{height:400px; position:relative;}
+	.sub-pages #weddings{height:400px; position:relative;}
+	.sub-pages #meetings{height:400px; position:relative;}
+	.sub-pages .content-overlay{padding: 8px 25px;}
+	.sub-pages .content-overlay h4 {font: 200 24px/30px 'Oswald', sans-serif;}
+	
+	#brochures-bx .brochures-list .brochures-block {width: 33%;}
+	
+	.gallery-sliders .owl-carousel{height: 410px; position: relative;}
+	
+	.event-booking-block {width: 75%;}
+	
+	#amenities-container{top:480px;}
+	
+	.room-bx .room-info-bx1 {padding: 0; border: 1px solid #756d58;}
+	.room-bx .room-info-bx1 .rooms-img-bx {width: 100%; float: none; padding-right: 0px;}
+	.room-bx .room-info-bx1 .room-content {width: 100%; float: none; padding: 20px;}
+	.room-amenities-list .room-amenities li {padding: 10px 10px 10px 32px; width: 50%;}
+	
+	.m-hide{display:none;}
+	#rooms-slide-m{display:block; position:relative;}
+	#rooms-slide-m .owl-dots {text-align: center;position: absolute; bottom: 5px; right: 5px;}
+	#rooms-slide-m .owl-dots .owl-dot {
+		background: url(../assets/dots.png);
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		display: inline;
+		margin: 4px;
+	}
+	
+	.right-info-bx {display: none;}
+	.left-info-bx {width: 100%;}
+	.room-info-bx2 {padding: 0; background:transparent; border: 1px solid #756d58;}
+	.room-amenities-list h4{background:#0e0e0e;}
+	.rooms-slideshow-bx{padding:0;}
+	.room-slider-overlay{display:none;}
+	.rcontent-bx{padding:0 15px;}
+	.rooms-slideshow-bx{margin-bottom: 10px;}
+	/*.close-btn{display:none;}*/
+	.m-room-info{display:block; padding-bottom:20px; position:relative;}
+	
+	.m-room-info .calen-icon{width:30px; height:26px; background: url(../assets/icons-sprites.png); background-size: 165px; background-repeat: no-repeat;  background-position:right -8.1em top -1143.5px, 0 0; float: left;}
+	.m-room-info p{font: 300 15px/20px 'IBM Plex Sans', sans-serif; letter-spacing: 0.3px; color: #eadab0; padding:15px 0 10px 0px; margin:0 0 0px 0;}
+	.m-room-info p.timing-txt{font: 300 14px/18px 'IBM Plex Sans', sans-serif;
+    letter-spacing: 0.3px;
+    color: #eadab0;
+    padding: 3px 0 0px 38px; margin:0 0 5px 0;}
+	
+	.m-room-info h3{font: 200 27px/38px 'Oswald', sans-serif; letter-spacing: 1.28px; color:#f2f2f2; text-transform: uppercase; float: none; padding:15px 0 10px 0;}
+	.m-room-info h5{float:none; letter-spacing: 0.3px;color: #ffffff; font: 300 14px/18px 'IBM Plex Sans', sans-serif; padding-top:7px; padding-bottom:8px;}
+	.m-room-info h5 span{text-transform: uppercase; font: 300 25px/26px 'IBM Plex Sans', sans-serif;letter-spacing: 1.5px; color: #f2f2f2; position: relative; top: 2px; display: block;}
+	.m-room-info h5 span b{text-transform: uppercase; font:600 21px/26px 'Oswald', sans-serif;letter-spacing: 1px; color: #f2f2f2;}
+	.room-amenities-list h4 {
+    letter-spacing: 0.5px;
+    color: #eadab0;
+    padding-bottom: 20px;
+    font: 400 18px/20px 'Oswald', sans-serif;}
+	.room-amenities-list .room-amenities {
+    padding: 0;
+    margin: 10px 0 5px 0;}
+	.room-amenities-list .room-amenities li {
+    font: 300 13px/20px 'IBM Plex Sans', sans-serif;}
+	.view-less{position: absolute;
+    bottom: 45px;
+    right:15px;
+    font: 400 13px/20px 'Oswald', sans-serif;
+    letter-spacing: 1.44px;
+    color: #be952e;
+    border-bottom: 1px solid #be952e;
+    text-transform: uppercase;
+    padding-bottom: 0.5px;}
+	.view-less:hover{border-bottom: 1px solid #fff; color: #fff;}
+	.pack-include img {width: 76px; margin-left: 10px;}
+	.pack-include h3 {font: 400 22px/32px 'Oswald', sans-serif;}
+	
+	.packages-container .tariff-list-bx h2 {font: 300 22px/30px 'Oswald', sans-serif;}
+	.tariff-list-bx .package-types .single-package{width: 100%; margin-bottom:20px;}
+	.tariff-list-bx .package-types .single-package{padding: 20px 25px 0px 25px;}
+	.tariff-list-bx .package-types .single-package:nth-child(3n+1){margin-right:0px;}
+	.tariff-list-bx .package-types .single-package:nth-child(3n+2){margin:0 0px 20px 0;}
+	.tariff-list-bx .package-types .single-package:nth-child(3n+3){margin-left:0px;}
+	
+	.casino-tariff-list h2 span{font: 300 12px/18px 'IBM Plex Sans', sans-serif;  float: none;  position: relative;  top: 12px;  display: block; padding: 0 0 18px 40px;}
+	
+	.casino-tariff-list .package-details {height: auto; padding-bottom: 15px;}
+	.casino-tariff-list .package-types .single-package ul {height:auto;}
+	
+	.mob-pic-bx img{width:95%;}
+	.explore-btn-o { width: 55%;}
+}
+
+@media screen and (max-width:600px){
+	.owl-nav{display:none;}
+	.booking-container {position: absolute !important; bottom:0px !important; top:unset !important;}
+	#overview {padding: 240px 0 10px 0;}
+	
+	#sub-header .logo-select-box{display:none;}
+	#sub-header .cd-primary-nav{float:none; width:100%; overflow:auto;}
+	#sub-header .sub-nav-list ul {margin: 0 0 0 -2px; width:1000px;}
+	#sub-header .sub-nav-list ul li a {padding:11.5px 20px 11px 20px;}
+	.sub-pages #sub-header {height: 43px;}
+	.sub-pages .is-hidden#sub-header {top: 43px;}
+	.sub-pages #sub-header .cd-primary-nav>ul a {height: 43px;}
+	
+	.venu-facilities {padding: 0 15px 35px 15px;}
+	.venu-facilities .single-facility{width: 33%;}
+	.venu-facilities .single-facility:nth-child(1) {width: 33%;}
+	.venu-facilities .single-facility .facility-content {padding:0 25px 25px 0; }
+	
+	#about-casion-tabs .nav-tabs {width: 750px !important;}
+	
+	#events-slider-bx {margin-bottom: 5px;}
+	
+	.slider-count{display:none;}
+	/*.slider-counter-f{display:none;}
+	.slider-counter-w{display:none;}
+	.slider-counter-m{display:none;}*/
+	.gallery-btn{display:none;}
+	.gaming-btn {width: 30%;}
+	
+	.sub-pages #dining {height: 370px; position: relative;}
+	.sub-pages #facilities{height:370px; position:relative;}
+	.sub-pages #weddings{height:370px; position:relative;}
+	.sub-pages #meetings{height:370px; position:relative;}
+	
+	.venu-info-bx .venu-content-bx{margin-bottom: 20px;}
+	.venu-info-bx .venu-content-bx:nth-child(3n+1){width:50%;}
+	.venu-info-bx .venu-content-bx:nth-child(3n+2){width:50%;}
+	.venu-info-bx .venu-content-bx:nth-child(3n+3){width:50%;}
+	
+	#offers-block .offer-block {width:100%; margin-bottom: 15px;}
+	#offers-block .offer-block:nth-child(3n+1){margin-right:0px;}
+	#offers-block .offer-block:nth-child(3n+2){margin:0 0 15px 0;}
+	#offers-block .offer-block:nth-child(3n+3){margin-left:0px;}
+	#offers-block .offer-block:nth-child(2n+1){margin-right:0px;}
+	#offers-block .offer-block:nth-child(2n+2){margin-left:0px;}
+	#offers-block .offer-block .offer-content .content-inner-box .offer-info {height:auto; overflow: inherit;}
+	
+	.sub-pages .owl-dots{position: absolute; bottom:0px; right: 0px; left: 0; text-align: center;}
+	.sub-pages .owl-dots .owl-dot{background:url("../assets/dots.png"); width: 8px;  height: 8px;
+	 border-radius:50%; display:inline; margin: 4px; }
+	.sub-pages .owl-dots .owl-dot.active{background:url("../assets/dots-solid.png") !important;}
+	
+	.sub-pages #about-casion-tabs {padding: 0 0 80px 0;}
+	
+	#event-testimonal-bx {padding: 0 0 60px 0;}
+	.slider-counter-test{display:none;}
+	#event-testimonal {height: 300px;}
+	
+	#brochures-bx .brochures-list .brochures-block {width: 50%; margin-bottom: 35px;}
+	.tab-menu-box-gallery{padding: 0 15px;}
+	.tab-menu-box-gallery-4{padding: 0 15px;}
+	
+	.gallery-sliders .owl-carousel{height: 370px; position: relative;}
+	.slider-counter-pro, .slider-counter-roo, .slider-counter-din, .slider-counter-mee, .slider-counter-wed, .slider-counter-fac{display:none;}
+	
+	#events-slideshow .owl-dots{top:46%; right:unset; left:30px;}
+	#events-slideshow .owl-dots .owl-dot{width:9px; height:9px; display:inline-block; margin:0 8px 0 0;}
+	
+	#rooms-block {padding: 20px 0 80px 0;}
+	#amenities-container {top: 420px;}
+	
+	#deltin-casino-tabs .link-box-tab{display:none;}
+	#deltin-casino-tabs .link-box-mob{display:block; text-align:center;}
+	
+	.venu-page{padding-bottom:275px;}
+	
+	#tariff-block h1 {font: 200 30px/40px 'Oswald', sans-serif; padding-bottom: 20px;}
+	.pack-include h3 {font: 400 18px/30px 'Oswald', sans-serif;}
+	
+	.pack-include{padding-bottom:50px;}
+	.pack-include:nth-child(1){width:50%; float:left;}
+	.pack-include:nth-child(2){width:50%; float:left;}
+	.pack-include:nth-child(3){width:50%; float:left;}
+	.pack-include:nth-child(4){width:50%; float:left;}
+	.pack-include img {width: 86px;}
+	.pack-include h3 {font: 400 25px/32px 'Oswald', sans-serif;}
+	.tariff-list-bx .offer-box {padding: 30px 0 45px 0;}
+	
+	#tariff-block h1 {font: 200 28px/40px 'Oswald', sans-serif; padding-bottom: 20px;}
+	
+	.modal-dialog {top: 40%;}
+	.modal-title {margin: 0;font: 300 22px/26px 'Oswald', sans-serif; padding-top:15px;}
+	.modal-body {padding: 5px 15px 15px 15px;}
+	.modal-body ul li {font: 400 13px/18px 'IBM Plex Sans', sans-serif; padding-bottom: 8px;}
+	#know-more .modal-header .package-heading {width: 100%;}
+	#know-more .modal-header .pack-details {width: 100%; float: none; position: relative; top: 20px; padding: 0 0 25px 0;}
+	.info-box p {padding-left: 0px;}
+	
+	#questions-block .link-box-tab{display:none;}
+	#questions-block .nav-tabs {width: 500px;}
+	
+	#about-casion-tabs .owl-carousel {
+		height: 310px;
+		position: relative;
+	}
+	.content-overlay h4 {
+		color: #eadab0;
+		font: 200 22px/26px 'Oswald', sans-serif;
+		letter-spacing: 1.64px;
+		text-transform: uppercase;
+		padding: 0px 0 0px 0;
+	}
+	.slider-count{display:none;}
+	#contact-us .contact-form-bx .send-btn{margin: 20px 0;}
+	.content-overlay h4 {
+		color: #eadab0;
+		font: 200 18px/24px 'Oswald', sans-serif;
+		letter-spacing: 1.64px;
+		text-transform: uppercase;
+		padding: 0px 0 0px 0;
+	}
+	.min-gallery-link {
+		color: #be952e;
+		font: 400 12px/20px 'Oswald', sans-serif;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		padding: 4px 10px 3px 10px;
+		background: rgb(0,0,0,0.5);
+	}
+	#videos-block .owl-carousel .owl-item img {
+        margin: -15px -10px;
+    }
+    #about-casion-tabs .owl-carousel .owl-stage-outer, #about-casion-tabs .owl-carousel .owl-stage-outer, #about-casion-tabs .owl-carousel .owl-stage-outer, .about-casion-block .owl-carousel .owl-stage-outer {
+        position: absolute;
+        margin-top: 0;
+    }
+    
+    .about-hotels{padding:0 0 30px 0 !important;}
+    .casino-spacing{padding:0 0 140px 0 !important;}
+    .hotels-rooms{padding:0 0 130px 0 !important;}
+    .hotels-rooms .owl-dots {
+    position: absolute;
+    bottom: 0 !important;}
+    .hotel-add-box{padding:30px 0 0 0;}
+    .deals-link-bx {
+        display: block;
+        text-align: center;
+        padding: 25px 0 0 0 !important;
+    }
+    #offers .owl-dots {
+    position: absolute;
+    bottom: 0px !important;}
+    #type-events {
+        padding: 0 0 120px 0 !important;
+    }
+    #contact-us {
+        margin: 0 0 50px 0;
+        overflow: hidden;
+    }
+    #offers.play-games{padding: 0 0 20px 0 !important;}
+    .play-games{margin-top:0px !important;}
+    .form-bxs .selected { font: normal 13px/20px 'IBM Plex Sans', sans-serif !important;}
+    .form-bxs .selected.arrow-up:after {content: '';
+    box-sizing: content-box;
+    display: inline-block;
+    float: right  !important;
+    width: 20px  !important;
+    height: 20px  !important;
+    background: url(../assets/icons-sprites.png) -1px -1.5px  !important;
+    background-size: 170px  !important;
+    background-repeat: no-repeat;
+       
+    }
+    .form-bxs .selected.arrow-down:after {
+        content: '';
+        box-sizing: content-box;
+        display: inline-block;
+        float: right;
+        width: 20px !important;
+        height: 20px !important;
+        background: url(../assets/icons-sprites.png) -8px -1.5px !important;
+        background-size: 170px !important;
+        background-repeat: no-repeat;
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+
+    .event-booking .fancy-select .fancy-option {
+        letter-spacing: 0.3px;
+        padding: 14.5px 15px;
+        background: white;
+        color: #242424;
+        cursor: pointer;
+        font: normal 12px/14px 'IBM Plex Sans', sans-serif !important;
+    }
+}
+
+@media screen and (max-width:540px){
+	/*.booking-container {top: -30px !important;}
+	.booking-container {top: -20px !important;}*/
+	
+	#rooms-block {padding: 50px 0 80px 0;}
+	
+	.mob-pic-bx img{width:100%;}
+	.explore-btn-o { width: 100%;}
+}
+
+@media screen and (max-width:480px){
+	
+	#overview {padding:25px 0 0px 0;}
+	#overview .min-menu li{margin-right: 28px;}
+	
+	.booking-block .hotel-date-selector .hotel-check-in {width: 100%; float: none; margin-bottom:15px;}
+	.booking-block .hotel-date-selector .hotel-check-out {width: 100%; float: none;}
+	
+	.hotel-description-bx .right-description {text-align: center;}
+	.hotel-description-bx .right-description h2 {text-align: left; font: 200 40px/47px 'Oswald', sans-serif; padding: 0px 10px 10px 0;}
+	.hotel-description-bx .right-description h2  br{display:none;}
+	.hotel-description-bx .right-description p {text-align: left; font:300 14px/18px 'IBM Plex Sans', sans-serif; padding-right: 0px;}
+	.hotel-description-bx .certified-bx {text-align: left;}
+	.hotel-description-bx .certified-bx .view-link { top: 28%; left: 60%;}
+	.explore-btn { width: 64%; padding: 10px 0; background:#be952e; border: 1px solid #be952e; color:#f2f2f2; margin-top: 45px;}
+	.mob-pic-bx {padding-top: 40px;}
+	.venu-info-bx .venu-content-bx:nth-child(1){width:50%;}
+	.venu-info-bx .venu-content-bx:nth-child(2){width:50%;}
+	.venu-info-bx .venu-content-bx:nth-child(3){width:50%; clear:left; padding-top:0px;}
+	.venu-content-bx .v-icon img {height: 75px;}
+	.hotel-main-page .venu-info-bx .venu-content-bx h4{font: 600 24px/46px 'Oswald', sans-serif;}
+	/*.venu-content-bx:nth-child(1) h4 {font: 500 25px/30px 'Oswald', sans-serif;top: 62px; left: 17px;}
+	.venu-content-bx:nth-child(2) h4 {font: 500 25px/28px 'Oswald', sans-serif;top: 61px; left: 28px;}
+	.venu-content-bx:nth-child(3) h4 {font: 500 25px/30px 'Oswald', sans-serif;top: 102px; left: 20px;}
+	
+	.venu-content-bx:nth-child(1) p{font: 300 15px/20px 'IBM Plex Sans', sans-serif; padding: 17px 0 0 20px;}
+	.venu-content-bx:nth-child(2) p{font: 300 15px/20px 'IBM Plex Sans', sans-serif; padding: 39px 0 0 27px;}
+	.venu-content-bx:nth-child(3) p{font: 300 15px/20px 'IBM Plex Sans', sans-serif; padding: 17px 0 0 20px;}*/
+	
+	.venu-info-bx .venu-content-bx {margin-bottom: 35px;}
+	.venu-content-bx p br{display:none;}
+	
+	.venu-content-bx h4{top: 47px; left: 32px;}
+	.venu-content-bx p{padding: 8px 40px 0 35px;}
+	.venu-content-bx:nth-child(5) h4{top: 32px; left: 32px;}
+	
+	.sub-pages #type-events .mob-heading br{display:none;}
+	#description-block {padding: 0 0 80px 0;}
+	
+	.hotels-deals .link-box{display:none;}
+	#owl-demo2 {height: 500px !important;}
+	.deals-link-bx{display:block; width:100%; text-align:center; padding-top:20px;}
+	.deals-link{letter-spacing: 1.44px; color: #be952e; border-bottom: 1px solid #be952e; text-transform: uppercase; padding-bottom: 1px; font: 400 14px/26px 'Oswald', sans-serif;}
+	
+	#about-casion-tabs .nav-tabs { width: 700px !important;}
+	.d-banner{display:none !important;}
+	.m-banner{display:block !important;}
+	.about-hotels .tab-content{padding-bottom:0px;}
+	.content-overlay{padding:10px 10px;}
+	.content-overlay h4 {font: 200 20px/24px 'Oswald', sans-serif;}
+	
+	.about-hotels .owl-dots .owl-dot{background: url(../assets/dots.png); width: 8px; height: 8px; border-radius: 50%; display: inline; margin: 4px;}
+	.about-hotels .owl-dots{position: absolute;bottom:20px; text-align: center; width: 100%;}
+	
+	
+	.about-hotels .owl-dots .owl-dot.active {background: url(../assets/dots-solid.png) !important;}
+	.gallery-btn {width: 70%;left: 0; right: 0; bottom: -60px; margin: 0 auto; font: 400 16px/24px 'Oswald', sans-serif; padding: 10px 0;}
+	.gaming-btn {width: 70%;left: 0; right: 0; bottom: -90px; margin: 0 auto;}
+	
+	.slider-count{display:none;}
+	/*.slider-counter-f{display:none;}
+	.slider-counter-w{display:none;}
+	.slider-counter-m{display:none;}*/
+	
+	.hotels-rooms .link-box{display:none;}
+	
+	
+	#contact-us .contact-box {width: 100%; position: relative; float: none;}
+	#contact-us .contact-form-bx {padding: 20px 20px 20px 20px;}
+	#contact-us .map-bx {width:calc(100% - 30px); margin:0 15px 5px 15px;  float: none; height: 200px; overflow: hidden !important;}
+	#contact-us .address-box {padding: 20px 25px 10px 25px;}
+	#contact-us .address-box a {width: 100%; padding-bottom: 15px;}
+	#contact-us .contact-form-bx .send-btn {width: 100%;}
+	
+	#other-hotels {padding: 20px 0 100px 0;}
+	#other-hotels .hotel-list-bx .hotel-info {width: 100%;}
+	
+	#dining {height: 590px; position: relative;}
+	#facilities{height:590px; position:relative;}
+	#wedding{height:590px; position:relative;}
+	#meetings{height:590px; position:relative;}
+	
+	.sub-pages .content-overlay h4 {font: 200 18px/20px 'Oswald', sans-serif;}
+	
+	.sub-pages #dining {height: 300px; position: relative;}
+	.sub-pages #facilities{height:300px; position:relative;}
+	.sub-pages #weddings{height:300px; position:relative;}
+	.sub-pages #meetings{height:300px; position:relative;}
+	
+	#videos-slider {height:250px;}
+	.gallery-sliders .owl-carousel{height: 295px; position: relative;}
+	
+	.sub-pages #description-block {padding: 270px 0 40px 0;}
+	#events-slideshow {height: 640px; position: relative; top: 100px;}
+	#form-block {top: 320px;}
+	/*.event-booking-block {padding:25px 20px 50px 20px; width: 100%; float: none; margin-right: 0px;}*/
+	.event-booking-block {padding:25px 20px 25px 20px;width: 90%; margin: 0 auto; left: 0; right: 0; top: 320px;}
+	.event-booking h3{color: #eadab0; font: 200 20px/30px 'Oswald', sans-serif;}
+	.event-booking p {font: 300 12px/20px 'IBM Plex Sans', sans-serif;}
+	.floating-label{font: normal 14px/20px 'IBM Plex Sans', sans-serif;}
+	.event-booking-block .form-btn{margin:20px 0;}
+	
+	#events-slideshow .owl-dots { top: 30%; left: 15px;}
+	
+	
+	#rooms-page #owl-demo {padding-bottom: 0px;}
+	#amenities-container {top: 330px;}
+	.amenities-bx .amenities img {width: 28px;}
+	.amenities-bx .amenities p {font: 300 12px/17px 'IBM Plex Sans', sans-serif;}
+	
+	#rooms-block {padding:0px 0 80px 0;}
+	.room-bx .room-info-bx1 {border: solid 1px #756d58;}
+	.room-detail .room-amenities{display:none;}
+	
+	.book-room{position:relative; width:100%; }
+	.room-bx .room-info-bx1 .room-content h3{float:none; font:200 21px/26px 'Oswald', sans-serif;
+    padding-bottom: 20px;}
+	.room-bx .room-info-bx1 .room-content h5 {float: none;}
+	.hroom-line{display:none;}
+	.book-room {padding: 15px 60px 14px 60px; margin: 40px 0 0 0;}
+	.pbook-room { float: none; width: 100%;}
+	.room-bx .room-info-bx1 .room-content h5 {font: 400 13px/20px 'IBM Plex Sans', sans-serif; padding-top: 5px;}
+	.room-bx .room-info-bx1 .room-content h5 span{display:block;  font: 300 23px/26px 'IBM Plex Sans', sans-serif;}
+	.room-bx .room-info-bx1 .room-content h5 span b {font: 500 20px/24px 'Oswald', sans-serif;}
+	
+	.room-detail .view-more {font: 400 14px/20px 'Oswald', sans-serif; top: -34px; right: 10px;}
+	
+	.view-img{background:none;}
+	.view-img span{display:none;}
+	
+	.room-amenities-list h4{padding-bottom:0;}
+	.room-amenities-list .room-amenities li {padding: 10px 10px 10px 32px; height: 60px; overflow: hidden;}
+	
+	.m-room-info {padding: 20px 0 35px;}
+	.m-room-info h3 {font: 200 20px/30px 'Oswald', sans-serif;}
+	
+	.sub-pages .about-casion-t  .owl-carousel {height: 630px; position: relative;}
+	/*.sub-pages .about-casion-t  #facilities {height: 630px; position: relative;}
+	.sub-pages .about-casion-t  #wedding {height: 630px; position: relative;}*/
+	
+	/*.casino-events{padding-top:100px !important;}*/
+	#learntoplay {height: 560px !important;}
+	
+	.venu-info-bx.blockof-4 .venu-content-bx:nth-child(4n+1){width:50%; }
+	.venu-info-bx.blockof-4 .venu-content-bx:nth-child(4n+2){width:50%; }
+	.venu-info-bx.blockof-4 .venu-content-bx:nth-child(4n+3){width:50%; }
+	.venu-info-bx.blockof-4 .venu-content-bx:nth-child(4n+4){width:50%; }
+	
+	.tariff-list-bx .offer-box h3 {font: 400 15px/30px 'Oswald', sans-serif; padding: 10px 0 10px 5px;}
+	.tariff-list-bx .offer-box .off-icon {height: 23px; top: 5px;}
+	.tariff-list-bx .line{left:0; }
+	
+	.modal-dialog {top: 25%;}
+	
+	.modal-dialog {position: relative; width: auto; margin: 15px;}
+	.modal-body{height: 465px; overflow: auto; margin-bottom: 15px;}
+	.package-include-list .package-include {width: 50%;float: left; height: auto; margin-bottom: 5px;}
+	.package-include-list .package-include p{padding-right: 10px;}
+	.package-include-list .package-include p br{display:none;}
+	
+	#know-more .modal-dialog {top: 27%;}
+	#know-more .modal-body {height: 350px;}
+	#know-more .modal-body h4 {color: #9d8e67;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font: 400 15px/24px 'Oswald', sans-serif;}
+	#know-more .modal-header .package-heading h3 {font: 300 20px/30px 'Oswald', sans-serif;}
+	#know-more .modal-header .pack-details h6 span {font: 400 13px/1.47 'IBM Plex Sans', sans-serif;}
+	#know-more .modal-header .pack-details h6 {font: 400 22px/28px 'Oswald', sans-serif;}
+	#know-more .modal-body .drinks-list ul li {width: 50%; float: left;}
+	#know-more .modal-body .drinks-list ul li:nth-child(odd){padding-right:20px; padding-left:0;}
+	#know-more .modal-body .drinks-list ul li:nth-child(even){padding-left:20px; padding-right:0;}
+	.casino-tariff-list .package-icon { top: -9px;
+    }
+	
+	.info-box ul li {padding: 15px 45px 15px 0;}
+	.booking-block .casino-logo {padding: 14.5px 0 0.5px 14px;}
+	
+	.mob-pic-bx img{width:100%;}
+	.explore-btn-o { width: 70%; margin:0 auto; font: 400 16px/24px 'Oswald', sans-serif;}
+	.side-pattern::after{display:none;}
+	#description-block.side-pattern .hotel-description-bx .right-description {padding-top: 10px; padding-right: 0px;}
+	.hotel-description-bx .right-description h2 {
+	text-align: left;
+    font: 200 26px/34px 'Oswald', sans-serif;
+    padding: 30px 0px 10px 0;}
+	#questions-block {padding:50px 0 70px 0;}
+	#special-events {
+		padding: 0 0 70px 0;
+	}
+	
+	.contact-links a {
+		font: 400 12px/21px 'IBM Plex Sans', sans-serif;
+		letter-spacing: 0.32px;
+		color: #eadab0;
+		width: 50%;
+		display: block;
+		padding: 10px 0 0 0;
+		float: left;
+	}
+	
+	.sub-pages .hotel-description-bx .right-description {
+    padding-top: 50px;
+		padding-right: 0px;
+	}
+	
+	#about-casion-tabs .owl-carousel {
+		height: 260px;
+		position: relative;
+	}
+	
+	/*.booking-container{position:relative; top:-230px !important;}*/
+	.hotel-description-bx .right-description {
+		width: 100%;
+		float: none;
+		padding-right: 0px;
+	}
+	#offers {padding: 0 0 70px 0 !important;}
+	#special-events {
+		padding: 0 0 70px 0;
+	}
+	#questions-block .tab-pane {
+    padding: 15px 0 15px 0;}
+    .hotel-description-bx .certified-bx img {
+        height: 90px;
+    }
+    .hotel-description-bx .certified-bx a.view-link {
+        font: 400 13px/24px 'Oswald', sans-serif;
+    }
+    #videos-slider .video-overlay h4 {
+        letter-spacing: 0.3px;
+        font: 300 13px/18px 'IBM Plex Sans', sans-serif;
+        color: #f2f2f2;
+        padding-left: 2px;
+    }
+    #videos-slider .video-overlay {
+        padding: 22px 10px 11px 10px;
+    }
+    .sub-pages #about-casion-tabs {
+        padding: 0 0 10px 0;
+    }
+    .sub-pages .about-hotels, .sub-pages .about-casinos {
+        padding-top: 30px !important;
+    }
+}
+
+@media screen and (max-width:400px){
+	.venu-content-bx .v-icon img {height: 65px;}
+	.venu-content-bx h4 {font: 600 24px/44px 'Oswald', sans-serif; top: 35px; left: 30px;}
+	.venu-content-bx p{font: 300 14px/18px 'IBM Plex Sans', sans-serif; padding: 5px 25px 0 32px;}
+	.venu-info-bx .venu-content-bx{height: auto;}
+	.hotel-main-page .venu-info-bx .venu-content-bx h4 {font: 600 20px/46px 'Oswald', sans-serif;}
+	
+	#brochures-bx .brochures-list .brochures-block {margin-bottom: 25px;}
+	#brochures-bx .pdf-icon {height: 20px;}
+	#brochures-bx .brochures-list .brochures-block h4 {padding: 0 0 0px 0px; font: 500 15px/20px 'Oswald', sans-serif;}
+	#brochures-bx .brochures-list .brochures-block a {font: 400 12px/20px 'IBM Plex Sans', sans-serif; border-bottom: 1px solid #be952e;}
+	#brochures-bx .download-icon {width: 14.5px;}
+	
+	#event-testimonal-bx .testimonal-bx {padding: 15px 15px;}
+	
+	.sub-pages #dining {height: 245px; position: relative;}
+	.sub-pages #facilities{height:245px; position:relative;}
+	.sub-pages #weddings{height:245px; position:relative;}
+	.sub-pages #meetings{height:245px; position:relative;}
+	.sub-pages .content-overlay h4 {font: 200 14px/15px 'Oswald', sans-serif;}
+	
+	#videos-slider {height:215px;}
+	.gallery-sliders .owl-carousel{height: 245px; position: relative;}
+	
+	#amenities-container {top: 300px;}
+	#rooms-block {padding:0px 0 80px 0;}
+	#owl-demo .owl-dots{left:15px !important; text-align:left !important; bottom:40px !important;}
+	
+	.amenities-bx .amenities p {font: 300 11px/14px 'IBM Plex Sans', sans-serif;}
+	
+	.sub-pages .about-casion-t  .owl-carousel {height: 530px; position: relative;}
+	/*.sub-pages .about-casion-t  #facilities {height: 530px; position: relative;}
+	.sub-pages .about-casion-t  #wedding {height: 530px; position: relative;}*/
+	.tariff-list-bx .line{left:0; width: 100%;}
+	
+	.tariff-list-bx .offer-box { padding: 0px 0 45px 0;}
+	#learntoplay {height:490px !important;}
+	#rooms {height: 400px;}
+	#about-casion-tabs .owl-carousel {
+		height: 240px;
+		position: relative;
+	}
+	.content-overlay h4 {
+		font: 200 14px/24px 'Oswald', sans-serif !important;
+	}
+	
+	#learntoplay .owl-dots {
+    position: absolute;
+    bottom: 8px !important;}
+	
+}
+
+@media screen and (max-width:380px){
+	#about-casion-tabs .owl-carousel{height:220px; position: relative;}
+	/*#facilities{height: 425px; position:relative;}
+	#wedding{height: 425px; position:relative;}
+	#meetings{height: 425px; position:relative;}*/
+	
+	.sub-pages #dining {height: 230px; position: relative;}
+	.sub-pages #facilities{height:230px; position:relative;}
+	.sub-pages #weddings{height:230px; position:relative;}
+	.sub-pages #meetings{height:230px; position:relative;}
+	
+	.hotel-main-page .venu-info-bx .venu-content-bx h4 {font: 600 17px/52px 'Oswald', sans-serif;}
+	.hotel-main-page .venu-content-bx p{ font: 300 13px/16px 'IBM Plex Sans', sans-serif;}
+	
+	#event-testimonal-bx .testimonal-bx p {font-size: 16px; line-height: 1.5;}
+	
+	#videos-slider {height:190px;}
+	#videos-slider .video-overlay h4 {
+        letter-spacing: 0.3px;
+        font: 300 10px/16px 'IBM Plex Sans', sans-serif;
+        color: #f2f2f2;
+        padding-left: 2px;
+    }
+	.gallery-sliders .owl-carousel{height:220px; position: relative;}
+	
+	.amenities-bx .amenities p {font: 300 10px/14px 'IBM Plex Sans', sans-serif;}
+	#owl-demo .owl-dots{left:15px !important; text-align:left !important; bottom:30px !important;}
+	
+	.sub-pages .about-casion-t  .owl-carousel {height: 470px; position: relative;}
+	/*.sub-pages .about-casion-t  #facilities {height: 470px; position: relative;}
+	.sub-pages .about-casion-t  #wedding {height: 470px; position: relative;}*/
+	
+	.pack-include h3 {font: 400 20px/30px 'Oswald', sans-serif;}
+	
+	#rooms-block {
+		padding: 0px 0 80px 0;
+	}
+	
+}
+
+
+/*==============================================*/
