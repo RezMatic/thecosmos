@@ -46,7 +46,7 @@
 
 		
 	
-	<link rel="stylesheet" href="../css/owl.carousel.min.css" type="text/css">
+	<link rel="stylesheet" href="../css2/owl.carousel.min.css" type="text/css">
 	
 	<script type="application/ld+json">
 		</script>
@@ -133,24 +133,19 @@
 				</ul>
 			</div>
 		<!--</nav>-->
-
-		
-	
-	
-	
 	
 	<div class="wrapper event-details " id="description-block">
 		<div class="left-description">
 			<div class="pic-bx">
-				<img src="../assets/facility/facility_pic120200425.2007.jpg" alt="Conferences" />
+				<img src="../assets/facility/facility_pic4120200418.2009.jpg" alt="Fitness Centre" />
 			</div>
 		</div>
 		<div class="container">
 			<div class="hotel-description-bx">
 				<div class="right-description">
-					<h2>YOUR BUSINESS, OUR PLEASURE</h2>
-<p style="padding-bottom: 35px;">The Cosmos, Conference spaces blends the charm of serene surroundings and ultra-modern conveniences to offer you an ideal destination for a corporate getaway. With a thoughtfully designed business center and sophisticated conference rooms, we ensure your corporate event is a smashing success. The banqueting facilities at The Cosmos provide seamless efficiency for all events from 20 to 200 guests with a variety of options.</p>
-<p>The dedicated exclusive attached rooms, luxury accommodation, landscaped gardens - all go into offering a holistic experience for work and leisure.</p>										<div class="link-box">
+					<h2>WE ARE EVENT PROOF</h2>
+<p style="padding-bottom: 35px;">No matter what comes in your mind to celebrate, we have got the right blend of space for you to surprise your all need and desires with a glamorous twist. Situated at the heart of patliputra colony at the right spot gives you yet another opportunity to spot the right spot to spot your joy. With the flexibility of customizing your plan to package ranging from 20 to 200 is what makes The Cosmos the most flexible event destination for all your hangout needs.</p>
+<p>From birthday parties to the peer club hangout, from the hustle of working the entire month and planning for a bow down event to energize your senses and mood, we have got your all covered.</p>										<div class="link-box">
 						
 						
 					</div>
@@ -165,16 +160,11 @@
 				<div class="clear"></div>
 			</div>
 		</div>
-
-
 		<div class="mob-pic-bx">
-			<img src="../assets/facility/facility_pic120200425.2007.jpg" alt="Conferences" />
+			<img src="../assets/facility/facility_pic4120200418.2009.jpg" alt="Fitness Centre" />
 		</div>
 		<div class="clear"></div>
 
-
-		
-				
 		<div class="container-small">
 		 <div class="hotel-venus-info">
 			<div class="venu-info-bx">
@@ -271,50 +261,9 @@ Buffet" />
 				
 	</div>
 
-	
+
+
 		
-				
-		<div class="wrapper" id="event-testimonal-bx" style="display:none;">
-			<div class="container-small">
-				<h1 class="desk-heading">See what our customers say</h1>
-				<h1 class="mob-heading">See what our customers say</h1>
-			</div>
-			
-			<div class="container-small">
-				<div class="counter-bx">
-					<div id="event-testimonal" class="owl-carousel">
-									
-						<div class="item">
-							<div class="testimonal-bx">
-								<p><p>test123</p></p>
-								<img src="../assets/the-deltin/icons/t-quote.png" />
-								<h4>Test1</h4>
-								<h6>Doctor</h6>
-							</div>
-						</div>
-										
-						<div class="item">
-							<div class="testimonal-bx">
-								<p><p>ABC</p></p>
-								<img src="../assets/the-deltin/icons/t-quote.png" />
-								<h4>A</h4>
-								<h6>Businessman</h6>
-							</div>
-						</div>
-							
-						<!--<div class="item">
-							<div class="testimonal-bx">
-								<p>“The Deltin was a perfect destination for a December wedding given the lovely weather in Daman.”</p>
-								<img src="assets/the-deltin/icons/t-quote.png" />
-								<h4>Asha Shrivastav</h4>
-								<h6>Indian Parent</h6>
-							</div>
-						</div>-->
-					</div>
-					<div class="slider-counter-test"></div>
-				</div>
-			</div>
-		</div>
 		
 		
 	
@@ -541,12 +490,12 @@ Buffet" />
 		  
 		  
 		  /*---------------------------------------*/
-		  					$("#"+"pool_side"+"cl").on('initialized.owl.carousel changed.owl.carousel', function(e) {
+		  					$("#"+"gym"+"cl").on('initialized.owl.carousel changed.owl.carousel', function(e) {
 						if (!e.namespace)  {
 						  return;
 						}
 						var carousel = e.relatedTarget;
-						$('.'+"pool_sideco").text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+						$('.'+"gymco").text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
 					  }).owlCarousel({
 							loop:false,
 							responsiveClass:true,
@@ -579,88 +528,12 @@ Buffet" />
 							}
 					});
 
-								$("#"+"grandice_ballroom"+"cl").on('initialized.owl.carousel changed.owl.carousel', function(e) {
+								$("#"+"steam_room"+"cl").on('initialized.owl.carousel changed.owl.carousel', function(e) {
 						if (!e.namespace)  {
 						  return;
 						}
 						var carousel = e.relatedTarget;
-						$('.'+"grandice_ballroomco").text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
-					  }).owlCarousel({
-							loop:false,
-							responsiveClass:true,
-							responsive:{
-								0:{
-									items:1,
-									nav:false,
-									dots:true,
-									stagePadding: 10,
-									margin:10,
-								},
-								601:{
-									items:1,
-									nav:true,
-									margin:15,
-									stagePadding: 50
-								},
-								992:{
-									items:1,
-									nav:true,
-									margin:25,
-									stagePadding: 150
-								},
-								1200:{
-									items:1,
-									nav:true,
-									margin:25,
-									stagePadding: 95
-								}
-							}
-					});
-
-								$("#"+"banquet_halls"+"cl").on('initialized.owl.carousel changed.owl.carousel', function(e) {
-						if (!e.namespace)  {
-						  return;
-						}
-						var carousel = e.relatedTarget;
-						$('.'+"banquet_hallsco").text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
-					  }).owlCarousel({
-							loop:false,
-							responsiveClass:true,
-							responsive:{
-								0:{
-									items:1,
-									nav:false,
-									dots:true,
-									stagePadding: 10,
-									margin:10,
-								},
-								601:{
-									items:1,
-									nav:true,
-									margin:15,
-									stagePadding: 50
-								},
-								992:{
-									items:1,
-									nav:true,
-									margin:25,
-									stagePadding: 150
-								},
-								1200:{
-									items:1,
-									nav:true,
-									margin:25,
-									stagePadding: 95
-								}
-							}
-					});
-
-								$("#"+"open_air_banquet_area"+"cl").on('initialized.owl.carousel changed.owl.carousel', function(e) {
-						if (!e.namespace)  {
-						  return;
-						}
-						var carousel = e.relatedTarget;
-						$('.'+"open_air_banquet_areaco").text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+						$('.'+"steam_roomco").text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
 					  }).owlCarousel({
 							loop:false,
 							responsiveClass:true,
@@ -927,5 +800,5 @@ Buffet" />
 
 </body>
 
-<!-- Mirrored from www.deltin.com/the-deltin/conference.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Oct 2020 16:07:03 GMT -->
+<!-- Mirrored from www.deltin.com/the-deltin/fitness.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Oct 2020 16:07:13 GMT -->
 </html>

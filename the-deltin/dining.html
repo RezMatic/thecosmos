@@ -46,7 +46,7 @@
 
 		
 	
-	<link rel="stylesheet" href="../css/owl.carousel.min.css" type="text/css">
+	<link rel="stylesheet" href="../css2/owl.carousel.min.css" type="text/css">
 	
 	<script type="application/ld+json">
 		</script>
@@ -133,28 +133,25 @@
 				</ul>
 			</div>
 		<!--</nav>-->
+				
 
-		
-	
-	
+
+
 	
 	
 	<div class="wrapper event-details " id="description-block">
 		<div class="left-description">
 			<div class="pic-bx">
-				<img src="../assets/facility/facility_pic120200425.2007.jpg" alt="Conferences" />
+				<img src="../assets/facility/facility_pic4320200418.2015.jpg" alt="Dining" />
 			</div>
 		</div>
 		<div class="container">
 			<div class="hotel-description-bx">
 				<div class="right-description">
-					<h2>YOUR BUSINESS, OUR PLEASURE</h2>
-<p style="padding-bottom: 35px;">The Cosmos, Conference spaces blends the charm of serene surroundings and ultra-modern conveniences to offer you an ideal destination for a corporate getaway. With a thoughtfully designed business center and sophisticated conference rooms, we ensure your corporate event is a smashing success. The banqueting facilities at The Cosmos provide seamless efficiency for all events from 20 to 200 guests with a variety of options.</p>
-<p>The dedicated exclusive attached rooms, luxury accommodation, landscaped gardens - all go into offering a holistic experience for work and leisure.</p>										<div class="link-box">
-						
-						
-					</div>
-										<!-- <h2>Why host your <br>wedding with us?</h2>
+					<h2>FINE DINING EXPERIENCE</h2>
+<p style="padding-bottom: 35px;">We are committed to dining excellence and that too at affordable rates. Our focus on dining has been to make the premium dining experience affordable. We offer a distinctive blend of classic elegance and relaxed casual, along with excellent service, great atmosphere and inspired cuisine - uniquely and creatively presented.</p>
+<p>The Cosmos restaurant serves you exotic Pan-Asian cuisine and offers you a mix of Pan-Asian, Continental and Indian cuisine. Also, enjoy extensive drinks menu and tantalizing mocktails.</p>
+<p>Come, simmer your senses and enjoy the tuff afternoon or the sensational evening by putting your hair down by The Cosmos.</p>										<!-- <h2>Why host your <br>wedding with us?</h2>
 					<p>Deltin Daman offers you a choice of unique and luxurious venues to host almost any kind of event from a group size of 200 to 1000. Only 3 hours away from Mumabi and Surat, it a is perfect for a destination wedding. </p> -->
 					<!--<div class="link-box">
 						<div class="hover-play">
@@ -165,17 +162,13 @@
 				<div class="clear"></div>
 			</div>
 		</div>
-
-
 		<div class="mob-pic-bx">
-			<img src="../assets/facility/facility_pic120200425.2007.jpg" alt="Conferences" />
+			<img src="../assets/facility/facility_pic4320200418.2015.jpg" alt="Dining" />
 		</div>
 		<div class="clear"></div>
 
 
-		
-				
-		<div class="container-small">
+<div class="container-small">
 		 <div class="hotel-venus-info">
 			<div class="venu-info-bx">
 									<div class="venu-content-bx">
@@ -268,53 +261,17 @@ Buffet" />
 			<div class="clear"></div>
 			</div>
 		</div>
+
+
 				
 	</div>
 
 	
+
+
+	
+	
 		
-				
-		<div class="wrapper" id="event-testimonal-bx" style="display:none;">
-			<div class="container-small">
-				<h1 class="desk-heading">See what our customers say</h1>
-				<h1 class="mob-heading">See what our customers say</h1>
-			</div>
-			
-			<div class="container-small">
-				<div class="counter-bx">
-					<div id="event-testimonal" class="owl-carousel">
-									
-						<div class="item">
-							<div class="testimonal-bx">
-								<p><p>test123</p></p>
-								<img src="../assets/the-deltin/icons/t-quote.png" />
-								<h4>Test1</h4>
-								<h6>Doctor</h6>
-							</div>
-						</div>
-										
-						<div class="item">
-							<div class="testimonal-bx">
-								<p><p>ABC</p></p>
-								<img src="../assets/the-deltin/icons/t-quote.png" />
-								<h4>A</h4>
-								<h6>Businessman</h6>
-							</div>
-						</div>
-							
-						<!--<div class="item">
-							<div class="testimonal-bx">
-								<p>“The Deltin was a perfect destination for a December wedding given the lovely weather in Daman.”</p>
-								<img src="assets/the-deltin/icons/t-quote.png" />
-								<h4>Asha Shrivastav</h4>
-								<h6>Indian Parent</h6>
-							</div>
-						</div>-->
-					</div>
-					<div class="slider-counter-test"></div>
-				</div>
-			</div>
-		</div>
 		
 		
 	
@@ -332,7 +289,7 @@ Buffet" />
 					<li><a href="dining.html">Restaurant</a></li>
 					<li><a href="../contact-us.html">Contact</a></li>
 				    <li class="last-footer-link"><a href="../deltin-select.html">The Cosmos Select</a></li>
-				    <li class="last-footer-link"><a href="../hall-of-fame.html">Hall of Fame</a></li>
+				    
 					<li class="last-footer-link"><div class="bg-phone"></div>7070998551</li>
 				</ul>
 			</div>
@@ -520,7 +477,19 @@ Buffet" />
 			 
 		})(jQuery);
 	</script>
+		<script>
+		$(function() {
+			$("#bookingdate").datepicker({
+				dateFormat: "dd-mm-yy",	
+				duration: "fast",
+				changeMonth: true,
+				changeYear: true
+				/*minDate: -20, 
+				maxDate: "+1M +10D"*/
+			});
+		 });
 		
+	</script>
 	<script src="../js2/owl.carousel.min.js"></script>
 	<script>
 		$(document).ready(function() {
@@ -541,12 +510,12 @@ Buffet" />
 		  
 		  
 		  /*---------------------------------------*/
-		  					$("#"+"pool_side"+"cl").on('initialized.owl.carousel changed.owl.carousel', function(e) {
+		  					$("#"+"emperor"+"cl").on('initialized.owl.carousel changed.owl.carousel', function(e) {
 						if (!e.namespace)  {
 						  return;
 						}
 						var carousel = e.relatedTarget;
-						$('.'+"pool_sideco").text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+						$('.'+"emperorco").text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
 					  }).owlCarousel({
 							loop:false,
 							responsiveClass:true,
@@ -579,12 +548,12 @@ Buffet" />
 							}
 					});
 
-								$("#"+"grandice_ballroom"+"cl").on('initialized.owl.carousel changed.owl.carousel', function(e) {
+								$("#"+"vegas"+"cl").on('initialized.owl.carousel changed.owl.carousel', function(e) {
 						if (!e.namespace)  {
 						  return;
 						}
 						var carousel = e.relatedTarget;
-						$('.'+"grandice_ballroomco").text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+						$('.'+"vegasco").text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
 					  }).owlCarousel({
 							loop:false,
 							responsiveClass:true,
@@ -617,12 +586,12 @@ Buffet" />
 							}
 					});
 
-								$("#"+"banquet_halls"+"cl").on('initialized.owl.carousel changed.owl.carousel', function(e) {
+								$("#"+"whiskeys"+"cl").on('initialized.owl.carousel changed.owl.carousel', function(e) {
 						if (!e.namespace)  {
 						  return;
 						}
 						var carousel = e.relatedTarget;
-						$('.'+"banquet_hallsco").text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+						$('.'+"whiskeysco").text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
 					  }).owlCarousel({
 							loop:false,
 							responsiveClass:true,
@@ -655,12 +624,12 @@ Buffet" />
 							}
 					});
 
-								$("#"+"open_air_banquet_area"+"cl").on('initialized.owl.carousel changed.owl.carousel', function(e) {
+								$("#"+"pool_bar"+"cl").on('initialized.owl.carousel changed.owl.carousel', function(e) {
 						if (!e.namespace)  {
 						  return;
 						}
 						var carousel = e.relatedTarget;
-						$('.'+"open_air_banquet_areaco").text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+						$('.'+"pool_barco").text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
 					  }).owlCarousel({
 							loop:false,
 							responsiveClass:true,
@@ -921,11 +890,107 @@ Buffet" />
 		var actWidth = $("#about-casion-tabs .nav-tabs").find(".active").parent("li").width();
 		var actPosition = $("#about-casion-tabs .nav-tabs .active").position();
 		$("#about-casion-tabs .slider").css({"left":+ actPosition.left,"width": actWidth});
-
+        
+        
+        $(document).ready(function(){
+  
+		  var $select = $('select'),
+			  $speed = 300;
+		  
+		  $select.each(function(){
+			// Allow default browser styling
+			if ( $(this).hasClass('default') ) {
+			  return;
+			}
+			$(this).css('display', 'none');
+			// Generate fancy select box
+			$(this).after('<ul class="fancy-select" style="display: none;"></ul>');
+			var $current = $(this),
+				$fancy = $current.next('.fancy-select');
+			
+			// Get options
+			var $options = $(this).find('option');
+			$options.each(function(index){
+			  var $val = $(this).val(),
+				  $text = $(this).text(),
+				  $disabled = '';
+			  // Add class for disabled options
+			  if ( $(this).attr('disabled') ) $disabled = ' disabled';      
+			  
+			  if ( index == 0 ) {
+				// Create clickable object from first option
+				$fancy.before('<span style="text-transform:uppercase;" class="selected arrow-up" data-val="'+ $val +'">'+ $text +'</span>');
+			  }
+			  // Load all options into fake dropdown
+			  $fancy.append('<li style="text-transform:uppercase;" class="fancy-option'+ $disabled +'" data-val="'+ $val +'">'+ $text +'</li>');
+			  // Update fake select box if this option is selected
+			  if ( $(this).attr('selected') ) {
+				$(this).parent('select').val($val);
+				$(this).parent('select').next('.selected').attr('data-val', $val).text($text);
+			  }
+			});
+			
+		  });
+		  
+		  // Show/hide options on click
+		  $('.selected').click(function(target){
+			var $box = $(this).next('.fancy-select'),
+				$target = target,
+				$object = $(this);
+			
+			// Prevent multiple open select boxes
+			if ( $box.is(':visible') ) {
+			  $box.slideUp($speed);
+			  return;
+			} else {
+			  $('.fancy-select').slideUp();
+			  $box.slideDown($speed);
+			}
+			
+			// Click outside select box closes it
+			$target.stopPropagation();
+			if ( $box.css('display') !== 'none' ) {
+			  $(document).click(function(){
+				$box.slideUp($speed);
+				$('.selected').removeClass("arrow-down");
+				$('.selected').addClass("arrow-up");
+			  });
+			}
+			
+				$(this).toggleClass("arrow-up arrow-down");
+		  });
+		  
+		  // Make selection
+		  $('.fancy-option').click(function(){
+			var $val = $(this).attr('data-val'),
+				$text = $(this).text(),
+				$box = $(this).parent('.fancy-select'),
+				$selected = $box.prev('.selected'),
+				$disabled = $(this).hasClass('disabled');
+			
+			// Basic disabled option functionality
+			if ( $disabled ) {
+			  return;
+			}
+			
+			$box.slideUp($speed);
+			
+			// Update select object's value
+			// and the fake box's "value"
+			$selected.prev('select').val($val);
+			$selected.attr('data-val', $val).text($text);
+			
+			// Get Output
+			var $what = $('#what').val(),
+				$when = $('#when').val();
+			$('.output').text('You want '+ $what +' '+ $when +'.');
+		  });
+		  
+		}); 
 	</script>
 
 
 </body>
 
-<!-- Mirrored from www.deltin.com/the-deltin/conference.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Oct 2020 16:07:03 GMT -->
+<!-- Mirrored from www.deltin.com/the-deltin/dining.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Oct 2020 16:06:52 GMT -->
 </html>
